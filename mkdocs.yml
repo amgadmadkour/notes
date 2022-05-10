@@ -1,0 +1,71 @@
+# Page tree
+nav:
+  - Home: index.md
+  - Python:
+    - Introduction: python/index.md
+    - Topics:
+      - Functions: python/topics/functions.ipynb
+      - Lists: python/topics/lists.ipynb
+      - Modules: python/topics/modules.ipynb
+      - Strings: python/topics/strings.ipynb
+  - Math4ML:
+    - Linear Algebra:
+      - Resources: math4ml/linearalgebra/resources.md
+  - Machine Learning:
+    - Resources: ml/resources.md
+  - Natural Language Processing:
+    - Resources: nlp/resources.md
+  - Graphs:
+    - Resources: graphs/resources.md
+
+# Project information
+site_name: Notes
+site_url: https://amgadmadkour.github.io/notes/
+site_author: Amgad Madkour
+
+# Repository
+repo_name: amgadmadkour/notes
+repo_url: https://github.com/amgadmadkour/notes
+
+# Copyright
+copyright: Copyright &copy; 2022 - Amgad Madkour
+
+# Configuration
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+use_directory_urls : False
+
+markdown_extensions:
+  - codehilite
+  - pymdownx.arithmatex:
+      generic: true
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+          - name: mermaid
+            class: mermaid
+            format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+plugins:
+  - search
+  - mknotebooks:
+      enable_default_jupyter_cell_styling: false
+      enable_default_pandas_dataframe_styling: false
+  - print-site
