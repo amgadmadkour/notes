@@ -3,12 +3,16 @@ nav:
   - Home: index.md
   - Python:
     - Introduction: python/index.md
-    - Topics:
-      - Functions: python/topics/functions.ipynb
-      - Lists: python/topics/lists.ipynb
-      - Modules: python/topics/modules.ipynb
-      - Strings: python/topics/strings.ipynb
-      - Exceptions: python/topics/exceptions.ipynb
+    - Language:
+      - Functions: python/language/functions.ipynb
+      - Lists: python/language/lists.ipynb
+      - Modules: python/language/modules.ipynb
+      - Strings: python/language/strings.ipynb
+      - Exceptions: python/language/exceptions.ipynb
+      - Tuples: python/language/tuples.ipynb
+      - Dictionaries: python/language/dictionaries.ipynb
+    - Visualization:
+      - Matplotlib: python/visualization/matplotlib.ipynb
   - Math4ML:
     - Linear Algebra:
       - Resources: math4ml/linearalgebra/resources.md
