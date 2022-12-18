@@ -8,6 +8,7 @@ nav:
       - Lists: python/topics/lists.ipynb
       - Modules: python/topics/modules.ipynb
       - Strings: python/topics/strings.ipynb
+      - Exceptions: python/topics/exceptions.ipynb
   - Math4ML:
     - Linear Algebra:
       - Resources: math4ml/linearalgebra/resources.md
@@ -26,6 +27,7 @@ site_author: Amgad Madkour
 # Repository
 repo_name: amgadmadkour/notes
 repo_url: https://github.com/amgadmadkour/notes
+edit_uri: edit/main/docs/
 
 # Copyright
 copyright: Copyright &copy; 2022 - Amgad Madkour
