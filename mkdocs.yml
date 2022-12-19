@@ -11,6 +11,8 @@ nav:
       - Exceptions: python/language/exceptions.ipynb
       - Tuples: python/language/tuples.ipynb
       - Dictionaries: python/language/dictionaries.ipynb
+      - Counter: python/language/counter.ipynb
+      - Sets: python/language/sets.ipynb
     - Visualization:
       - Matplotlib: python/visualization/matplotlib.ipynb
   - Math4ML:

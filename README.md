@@ -1,2 +1,3 @@
-# notes
-Notes by Amgad Madkour
+# Notes
+
+Notes by Amgad Madkour.
