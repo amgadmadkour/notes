@@ -13,6 +13,7 @@ nav:
       - Dictionaries: python/language/dictionaries.ipynb
       - Counter: python/language/counter.ipynb
       - Sets: python/language/sets.ipynb
+      - Control Flow: python/language/controlflow.ipynb
     - Visualization:
       - Matplotlib: python/visualization/matplotlib.ipynb
   - Math4ML:
