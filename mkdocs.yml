@@ -15,6 +15,7 @@ nav:
       - Sets: python/language/sets.ipynb
       - Control Flow: python/language/controlflow.ipynb
       - Sorting: python/language/sorting.ipynb
+      - List Comprehensions: python/language/listcomprehensions.ipynb
     - Visualization:
       - Matplotlib: python/visualization/matplotlib.ipynb
   - Math4ML:
