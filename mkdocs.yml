@@ -2,7 +2,7 @@
 nav:
   - Home: index.md
   - Python:
-    - Introduction: python/index.md
+    - Introduction: python/python.md
     - Language:
       - Functions: python/language/functions.ipynb
       - Lists: python/language/lists.ipynb
@@ -19,13 +19,17 @@ nav:
     - Visualization:
       - Matplotlib: python/visualization/matplotlib.ipynb
   - Math4ML:
+    - Introduction: math4ml/math4ml.md
     - Linear Algebra:
       - Resources: math4ml/linearalgebra/resources.md
   - Machine Learning:
+    - Introduction: ml/ml.md
     - Resources: ml/resources.md
   - Natural Language Processing:
+    - Introduction: nlp/nlp.md
     - Resources: nlp/resources.md
   - Graphs:
+    - Introduction: graphs/graphs.md
     - Resources: graphs/resources.md
 
 # Project information
@@ -39,7 +43,7 @@ repo_url: https://github.com/amgadmadkour/notes
 edit_uri: edit/main/docs/
 
 # Copyright
-copyright: Copyright &copy; 2022 - Amgad Madkour
+copyright: Copyright &copy; 2023 - Amgad Madkour
 
 # Configuration
 theme:

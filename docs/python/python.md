@@ -1,6 +1,6 @@
-# Python Notes
+# Python
 
-The following notes are meant as a code-centric quick-start guide to python. It covers two main areas:
+The following notes are meant as a code-centric quick-start guide to python. It covers the following topics:
 
 1. **Language**: Primer for a set of topics that cover the python programming language.
 2. **Visualizations**: Primer for some python visualization libraries.
