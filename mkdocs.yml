@@ -1,6 +1,22 @@
 # Page tree
 nav:
-  - Home: index.md
+  - Home: notes.md
+  - Large Language Models (LLM):
+    - Introduction: llm/llm.md
+    - Resources: llm/resources.md
+  - Machine Learning:
+    - Introduction: ml/ml.md
+    - Resources: ml/resources.md
+  - Math4ML:
+    - Introduction: math4ml/math4ml.md
+    - Linear Algebra:
+      - Resources: math4ml/linearalgebra/resources.md
+  - Natural Language Processing (NLP):
+    - Introduction: nlp/nlp.md
+    - Resources: nlp/resources.md
+  - Graphs:
+    - Introduction: graphs/graphs.md
+    - Resources: graphs/resources.md
   - Python:
     - Introduction: python/python.md
     - Language:
@@ -18,23 +34,10 @@ nav:
       - List Comprehensions: python/language/listcomprehensions.ipynb
     - Visualization:
       - Matplotlib: python/visualization/matplotlib.ipynb
-  - Math4ML:
-    - Introduction: math4ml/math4ml.md
-    - Linear Algebra:
-      - Resources: math4ml/linearalgebra/resources.md
-  - Machine Learning:
-    - Introduction: ml/ml.md
-    - Resources: ml/resources.md
-  - Natural Language Processing:
-    - Introduction: nlp/nlp.md
-    - Resources: nlp/resources.md
-  - Graphs:
-    - Introduction: graphs/graphs.md
-    - Resources: graphs/resources.md
 
 # Project information
 site_name: Notes
-site_url: https://amgadmadkour.github.io/notes/
+site_url: https://amgadmadkour.github.io/notes/notes.md
 site_author: Amgad Madkour
 
 # Repository
@@ -48,10 +51,38 @@ copyright: Copyright &copy; 2023 - Amgad Madkour
 # Configuration
 theme:
   name: material
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      primary: white 
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black 
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
   features:
     - navigation.tabs
     - navigation.sections
+
 use_directory_urls : False
+
+extra:
+  homepage: https://amgadmadkour.github.io/
 
 markdown_extensions:
   - codehilite
@@ -65,13 +96,25 @@ markdown_extensions:
   - tables
   - pymdownx.highlight:
       anchor_linenums: true
+  - pymdownx.highlight
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
   - pymdownx.inlinehilite
-  - pymdownx.snippets
+  - pymdownx.snippets:
+        auto_append:
+          - includes/abbreviations.md
   - pymdownx.superfences:
       custom_fences:
           - name: mermaid
             class: mermaid
             format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tilde
 
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
@@ -81,6 +124,6 @@ extra_javascript:
 plugins:
   - search
   - mknotebooks:
-      enable_default_jupyter_cell_styling: false
-      enable_default_pandas_dataframe_styling: false
+      enable_default_jupyter_cell_styling: true
+      enable_default_pandas_dataframe_styling: true
   - print-site
