@@ -1,6 +1,6 @@
 # Notes
 
-The following notes represent a collection of topics that I have found useful in my work. They are meant to be a quick reference guide for myself, but I hope they can be useful to others as well. The notes are published as mkdocs pages for easy navigation and search.
+The following notes represent a collection of topics that I have found useful in my work. They are meant to be a quick reference guide for myself, but I hope they can be useful to others as well. The notes are published as [mkdocs](https://www.mkdocs.org/) pages for easy navigation and search.
 
 ## Topics
 
