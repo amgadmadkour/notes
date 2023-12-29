@@ -6,6 +6,12 @@ nav:
     - Resources: llm/resources.md
   - Machine Learning:
     - Introduction: ml/ml.md
+    - Types of Learning: 
+      - Overview: ml/types.md
+      - Supervised Learning: ml/type/supervised-learning.md
+      - Unsupervised Learning: ml/type/unsupervised-learning.md
+      - Semi-Supervised Learning: ml/type/semi-supervised-learning.md
+      - Reinforcement Learning: ml/type/reinforcement-learning.md
     - Resources: ml/resources.md
   - Math4ML:
     - Introduction: math4ml/math4ml.md
@@ -115,6 +121,8 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tilde
+  - admonition
+  - pymdownx.details
 
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
@@ -127,3 +135,4 @@ plugins:
       enable_default_jupyter_cell_styling: true
       enable_default_pandas_dataframe_styling: true
   - print-site
+  - autorefs
