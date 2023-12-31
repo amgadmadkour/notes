@@ -7,11 +7,17 @@ nav:
   - Machine Learning:
     - Introduction: ml/ml.md
     - Types of Learning: 
-      - Overview: ml/types.md
-      - Supervised Learning: ml/type/supervised-learning.md
-      - Unsupervised Learning: ml/type/unsupervised-learning.md
-      - Semi-Supervised Learning: ml/type/semi-supervised-learning.md
-      - Reinforcement Learning: ml/type/reinforcement-learning.md
+      - Supervised vs. Unsupervised:
+        - Supervised Learning: ml/type/supervised-learning.md
+        - Unsupervised Learning: ml/type/unsupervised-learning.md
+        - Semi-Supervised Learning: ml/type/semi-supervised-learning.md
+        - Reinforcement Learning: ml/type/reinforcement-learning.md
+      - Batch vs. Online:
+        - Batch Learning: ml/type/batch-learning.md
+        - Online Learning: ml/type/online-learning.md
+      - Instance-based vs. Model-based:
+        - Instance-Based Learning: ml/type/instance-based-learning.md
+        - Model-Based Learning: ml/type/model-based-learning.md
     - Resources: ml/resources.md
   - Math4ML:
     - Introduction: math4ml/math4ml.md
