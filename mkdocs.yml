@@ -1,9 +1,6 @@
 # Page tree
 nav:
   - Home: notes.md
-  - Large Language Models (LLM):
-    - Introduction: llm/llm.md
-    - Resources: llm/resources.md
   - Machine Learning:
     - Introduction: ml/ml.md
     - Types of Learning: 
@@ -19,16 +16,6 @@ nav:
         - Instance-Based Learning: ml/type/instance-based-learning.md
         - Model-Based Learning: ml/type/model-based-learning.md
     - Resources: ml/resources.md
-  - Math4ML:
-    - Introduction: math4ml/math4ml.md
-    - Linear Algebra:
-      - Resources: math4ml/linearalgebra/resources.md
-  - Natural Language Processing (NLP):
-    - Introduction: nlp/nlp.md
-    - Resources: nlp/resources.md
-  - Graphs:
-    - Introduction: graphs/graphs.md
-    - Resources: graphs/resources.md
   - Python:
     - Introduction: python/python.md
     - Language:

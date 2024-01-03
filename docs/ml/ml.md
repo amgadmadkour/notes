@@ -26,7 +26,7 @@ The alternative to machine learning is **hand-crafted rules**. For example, a sp
   
 The problem with hand-crafted rules is that they are **brittle**. For example, if the word "coupon" is replaced with "koupon", then the rule will not work. Machine learning is more robust because it learns which words are associated with spam from the data.
 
-# Types of Learning
+## Types of Learning
 
 There are several ways to categorize machine learning algorithms. One way is to categorize them by the type of learning they use. The following is a list of the types of learning:
 
