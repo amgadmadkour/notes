@@ -1,6 +1,8 @@
 # Supervised Learning
 
-In order to train a machine learning model, we need to provide it with training data. The training data consists of a set of instances. Each instance is a pair of an input and an output. The input is a set of ***features*** and the output is a ***label***. The goal of supervised learning is to learn a function that maps the input to the output.
+- In order to train a machine learning model, we need to provide it with ***training data***.
+- The training data consists of a set of instances. Each instance is a pair of an input and an output. The input is a set of ***features*** and the output is a ***label***. 
+- The goal of supervised learning is to learn a ***function*** that maps the ***input*** to the ***output***.
 
 !!! info
     The term *feature* is used interchangeably with the term *attribute*. An attribute usually denotes a property name only while a feature denotes a property name and value.
