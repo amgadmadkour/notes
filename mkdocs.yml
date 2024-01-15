@@ -37,6 +37,7 @@ nav:
 site_name: Notes
 site_url: https://amgadmadkour.github.io/notes/notes.md
 site_author: Amgad Madkour
+strict: true
 
 # Repository
 repo_name: amgadmadkour/notes
@@ -44,7 +45,7 @@ repo_url: https://github.com/amgadmadkour/notes
 edit_uri: edit/main/docs/
 
 # Copyright
-copyright: Copyright &copy; 2023 - Amgad Madkour
+copyright: Copyright &copy; 2024 - Amgad Madkour
 
 # Configuration
 theme:
@@ -126,5 +127,8 @@ plugins:
   - mknotebooks:
       enable_default_jupyter_cell_styling: true
       enable_default_pandas_dataframe_styling: true
-  - print-site
   - autorefs
+  - tags
+  - print-site
+
+

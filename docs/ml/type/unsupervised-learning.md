@@ -3,7 +3,7 @@
 - Unsupervised learning uses **unlabeled data** for training.
 - This is particularly useful in problems where it is difficult to obtain labeled data.
 - Unsupervised learning algorithms are useful for discovering patterns in data.
-- The goal of unsupervised learning is use a feature vector as input and either outputs a feature vector or a label/value. 
+- The goal of unsupervised learning is use a feature vector as input and either outputs a feature vector or a label/value.
 
 ## Use Cases
 
