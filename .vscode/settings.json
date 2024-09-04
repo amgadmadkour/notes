@@ -29,4 +29,5 @@
   "yaml.schemas": {
     "https://json.schemastore.org/github-workflow.json": "file:///d%3A/src/Personal/notes/.github/workflows/deploy.yml"
   },
+  "editor.wordWrap": "on",
 }

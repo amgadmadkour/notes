@@ -7,6 +7,8 @@
 !!! info
     The term *feature* is used interchangeably with the term *attribute*. An attribute usually denotes a property name only while a feature denotes a property name and value.
 
+The output variable can either be a [regression](../concept/regression.md) or a [classification](../concept/classification) value.
+
 ## Examples
 
 The following are examples of machine learning algorithms that use supervised learning:
