@@ -2,36 +2,37 @@
 nav:
   - Home: notes.md
   - Machine Learning:
-    - Introduction: ml/ml.md
-    - Types of Learning: 
-      - Supervised Learning: ml/type/supervised-learning.md
-      - Unsupervised Learning: ml/type/unsupervised-learning.md
-      - Semi-Supervised Learning: ml/type/semi-supervised-learning.md
-      - Reinforcement Learning: ml/type/reinforcement-learning.md
-    - Batch and Online:
-        - Batch Learning: ml/type/batch-learning.md
-        - Online Learning: ml/type/online-learning.md
-    - Instance and Model:
-        - Instance-Based Learning: ml/type/instance-based-learning.md
-        - Model-Based Learning: ml/type/model-based-learning.md
-    - Resources: ml/resources.md
+      - Introduction: ml/ml.md
+      - Types of Learning:
+          - Supervised Learning: ml/type/supervised-learning.md
+          - Unsupervised Learning: ml/type/unsupervised-learning.md
+          - Semi-Supervised Learning: ml/type/semi-supervised-learning.md
+          - Reinforcement Learning: ml/type/reinforcement-learning.md
+      - Batch and Online:
+          - Batch Learning: ml/type/batch-learning.md
+          - Online Learning: ml/type/online-learning.md
+      - Instance and Model:
+          - Instance-Based Learning: ml/type/instance-based-learning.md
+          - Model-Based Learning: ml/type/model-based-learning.md
+      - Resources: ml/resources.md
   - Python:
-    - Introduction: python/python.md
-    - Language:
-      - Functions: python/language/functions.ipynb
-      - Lists: python/language/lists.ipynb
-      - Modules: python/language/modules.ipynb
-      - Strings: python/language/strings.ipynb
-      - Exceptions: python/language/exceptions.ipynb
-      - Tuples: python/language/tuples.ipynb
-      - Dictionaries: python/language/dictionaries.ipynb
-      - Counter: python/language/counter.ipynb
-      - Sets: python/language/sets.ipynb
-      - Control Flow: python/language/controlflow.ipynb
-      - Sorting: python/language/sorting.ipynb
-      - List Comprehensions: python/language/listcomprehensions.ipynb
-    - Visualization:
-      - Matplotlib: python/visualization/matplotlib.ipynb
+      - Introduction: python/python.md
+      - Language:
+          - Functions: python/language/functions.ipynb
+          - Classes: python/language/classes.ipynb
+          - Lists: python/language/lists.ipynb
+          - Modules: python/language/modules.ipynb
+          - Strings: python/language/strings.ipynb
+          - Exceptions: python/language/exceptions.ipynb
+          - Tuples: python/language/tuples.ipynb
+          - Dictionaries: python/language/dictionaries.ipynb
+          - Counter: python/language/counter.ipynb
+          - Sets: python/language/sets.ipynb
+          - Control Flow: python/language/controlflow.ipynb
+          - Sorting: python/language/sorting.ipynb
+          - List Comprehensions: python/language/listcomprehensions.ipynb
+      - Visualization:
+          - Matplotlib: python/visualization/matplotlib.ipynb
 
 # Project information
 site_name: Notes
@@ -53,7 +54,7 @@ theme:
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
-      primary: white 
+      primary: white
       toggle:
         icon: material/brightness-auto
         name: Switch to light mode
@@ -61,7 +62,7 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: white 
+      primary: white
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -69,7 +70,7 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: black 
+      primary: black
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
@@ -78,7 +79,7 @@ theme:
     - navigation.tabs
     - navigation.sections
 
-use_directory_urls : False
+use_directory_urls: False
 
 extra:
   homepage: https://amgadmadkour.github.io/
@@ -101,13 +102,13 @@ markdown_extensions:
   - pymdownx.smartsymbols
   - pymdownx.inlinehilite
   - pymdownx.snippets:
-        auto_append:
-          - includes/abbreviations.md
+      auto_append:
+        - includes/abbreviations.md
   - pymdownx.superfences:
       custom_fences:
-          - name: mermaid
-            class: mermaid
-            format: !!python/name:pymdownx.superfences.fence_code_format
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tilde
@@ -127,5 +128,3 @@ plugins:
   - autorefs
   - tags
   - print-site
-
-
