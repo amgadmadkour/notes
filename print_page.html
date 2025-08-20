@@ -1,0 +1,4213 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Amgad Madkour">
+      
+      
+        <link rel="canonical" href="https://amgadmadkour.github.io/notes/notes.md/print_page.html">
+      
+      
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.31">
+    
+    
+      
+        <title>Print Site - Notes</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.3cba04c6.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="css/print-site-enum-headings1.css">
+    
+      <link rel="stylesheet" href="css/print-site-enum-headings2.css">
+    
+      <link rel="stylesheet" href="css/print-site-enum-headings3.css">
+    
+      <link rel="stylesheet" href="css/print-site-enum-headings4.css">
+    
+      <link rel="stylesheet" href="css/print-site-enum-headings5.css">
+    
+      <link rel="stylesheet" href="css/print-site-enum-headings6.css">
+    
+      <link rel="stylesheet" href="css/print-site.css">
+    
+      <link rel="stylesheet" href="css/print-site-material.css">
+    
+      <link rel="stylesheet" href="css/ansi-colours.css">
+    
+      <link rel="stylesheet" href="css/jupyter-cells.css">
+    
+      <link rel="stylesheet" href="css/pandas-dataframe.css">
+    
+    <script>__md_scope=new URL("/notes/notes.md/",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  
+        <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function () {
+            remove_material_navigation();remove_mkdocs_theme_navigation();generate_toc();
+        })
+        </script>
+        </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#notes" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://amgadmadkour.github.io/" title="Notes" class="md-header__button md-logo" aria-label="Notes" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Notes
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Print Site
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9h-1.9M20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69m-9.15 3.96h2.3L12 9l-1.15 3.65Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/amgadmadkour/notes" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    amgadmadkour/notes
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="notes.html" class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="ml/ml.html" class="md-tabs__link">
+          
+  
+  Machine Learning
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="python/python.html" class="md-tabs__link">
+          
+  
+  Python
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://amgadmadkour.github.io/" title="Notes" class="md-nav__button md-logo" aria-label="Notes" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Notes
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/amgadmadkour/notes" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    amgadmadkour/notes
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="notes.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Machine Learning
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Machine Learning
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ml/ml.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Types of Learning
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Types of Learning
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ml/type/supervised-learning.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Supervised Learning
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ml/type/unsupervised-learning.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Unsupervised Learning
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ml/type/semi-supervised-learning.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Semi-Supervised Learning
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ml/type/reinforcement-learning.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reinforcement Learning
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Batch and Online
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Batch and Online
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ml/type/batch-learning.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Batch Learning
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ml/type/online-learning.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Online Learning
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Instance and Model
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            Instance and Model
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ml/type/instance-based-learning.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Instance-Based Learning
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ml/type/model-based-learning.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Model-Based Learning
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ml/resources.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Resources
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Python
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Python
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="python/python.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Language
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Language
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="python/language/functions.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Functions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="python/language/classes.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Classes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="python/language/lists.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lists
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="python/language/modules.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Modules
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="python/language/strings.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Strings
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="python/language/regexp.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Regular Expressions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="python/language/exceptions.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Exceptions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="python/language/tuples.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tuples
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="python/language/dictionaries.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dictionaries
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="python/language/counter.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Counter
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="python/language/sets.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sets
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="python/language/controlflow.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Control Flow
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="python/language/sorting.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sorting
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="python/language/listcomprehensions.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    List Comprehensions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Visualization
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Visualization
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="python/visualization/matplotlib.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Matplotlib
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Home
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-machine-learning" class="md-nav__link">
+    <span class="md-ellipsis">
+      I. Machine Learning
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="I. Machine Learning">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ml-ml" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Introduction
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ml-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Resources
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-python" class="md-nav__link">
+    <span class="md-ellipsis">
+      II. Python
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="II. Python">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#python-python" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Introduction
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<div id="print-site-page" class="print-site-enumerate-headings print-site-enumerate-figures">
+        <section class="print-page">
+            <div id="print-page-toc" data-toc-depth="3">
+                <nav role='navigation' class='print-page-toc-nav'>
+                <h1 class='print-page-toc-title'>Table of Contents</h1>
+                </nav>
+            </div>
+        </section>
+        <section class="print-page" id="notes"><h1 id="notes-notes">Notes</h1>
+<p>The following notes represent a collection of topics that I have found useful in my work. They are meant to be a quick reference guide for myself, but I hope they can be useful to others as well. The notes are published as <a href="https://www.mkdocs.org/">mkdocs</a> pages for easy navigation and search.</p>
+<h2 id="notes-topics">Topics</h2>
+<ol>
+<li><a href="#python-python">Python</a>: Primer for a set of topics that cover the python programming language.</li>
+<li><a href="#ml-ml">Machine Learning</a>: Primer for a set of topics that cover machine learning including deep learning.</li>
+</ol></section>
+                        <h1 class='nav-section-title' id='section-machine-learning'>
+                            Machine Learning <a class='headerlink' href='#section-machine-learning' title='Permanent link'>↵</a>
+                        </h1>
+                        <section class="print-page" id="ml-ml"><h1 id="ml-ml-machine-learning">Machine Learning</h1>
+<h2 id="ml-ml-what-is-machine-learning">What is Machine Learning?</h2>
+<blockquote>
+<p>Machine Learning is the field of study that gives computers the ability to learn without being explicitly programmed. - Arthur Samuel, 1959</p>
+</blockquote>
+<p>From an engineering perspective, machine learning can be defined as:</p>
+<ul>
+<li><strong>P</strong>: Performance</li>
+<li><strong>T</strong>: Task</li>
+<li><strong>E</strong>: Experience</li>
+</ul>
+<p>For example, a <strong>spam filter</strong> is a <em>task</em>, and the <em>performance</em> is the <strong>accuracy</strong> of the filter. The <em>experience</em> is the <strong>training data</strong> that the filter is trained on. The goal of machine learning is to improve the performance of a task by learning from experience. In the case of the spam filter, the goal is to improve the accuracy of the filter by learning from training data.</p>
+<p>Machine learning is suitable for the following problems</p>
+<ul>
+<li>Require a lot of hand-tuning or long lists of rules.</li>
+<li>Complex where traditional methods do not work well.</li>
+<li>Fluctuating over time where the data changes frequently.</li>
+</ul>
+<p>The alternative to machine learning is <strong>hand-crafted rules</strong>. For example, a spam filter could be built by hand-crafting rules such as:</p>
+<ul>
+<li>If the email contains the word "coupon", then it is spam.</li>
+<li>If the email is from a known spammer, then it is spam.</li>
+<li>If the email is from a friend, then it is not spam.</li>
+</ul>
+<p>The problem with hand-crafted rules is that they are <strong>brittle</strong>. For example, if the word "coupon" is replaced with "koupon",then the rule will not work. Machine learning is more robust because it learns which words are associated with spam from the data.</p>
+<h2 id="ml-ml-components">Components</h2>
+<p>The three major components of a machine learning system are:</p>
+<ul>
+<li><a href="#ml-concept-data">Data</a></li>
+<li><a href="#ml-concept-model">Model</a></li>
+<li><a href="#ml-concept-learning">Learning</a></li>
+</ul>
+<h2 id="ml-ml-types-of-learning">Types of Learning</h2>
+<p>There are several ways to categorize machine learning algorithms. One way is to categorize them by the type of learning they use. The following is a list of the types of learning:</p>
+<ol>
+<li>Trained using human <strong>supervision</strong>.<ol>
+<li><a href="#ml-type-supervised-learning">Supervised Learning</a> : The training data is labeled.</li>
+<li><a href="#ml-type-unsupervised-learning">Unsupervised Learning</a>: The training data is unlabeled.</li>
+<li><a href="#ml-type-semi-supervised-learning">Semi-supervised Learning</a>: The training data is partially labeled.</li>
+<li><a href="#ml-type-reinforcement-learning">Reinforcement Learning</a>: The training data is the result of an agent interacting with an environment.</li>
+</ol>
+</li>
+<li>Learn by <strong>detecting patterns</strong>.<ol>
+<li><a href="#ml-type-instance-based-learning">Instance-based Learning</a>: The system learns the training data and uses a similarity measure to generalize to new instances.</li>
+<li><a href="#ml-type-model-based-learning">Model-based Learning</a>: The system learns a model of the training data and uses the model to generalize to new instances.</li>
+</ol>
+</li>
+<li>Learn <strong>incrementally</strong> or <strong>on the fly</strong>.<ol>
+<li><a href="#ml-type-online-learning">Online Learning</a>: The system learns incrementally from a stream of data.</li>
+<li><a href="#ml-type-batch-learning">Batch Learning</a>: The system learns from a fixed dataset.</li>
+</ol>
+</li>
+</ol>
+<h2 id="ml-ml-pillars-of-machine-learning">Pillars of Machine Learning</h2>
+<ul>
+<li><a href="#ml-task-classification">Classification</a></li>
+<li><a href="#ml-task-regression">Regression</a></li>
+<li><a href="#ml-task-dimensionality-reduction">Dimensionality Reduction</a></li>
+<li><a href="#ml-task-density-estimation">Density Estimation</a></li>
+</ul></section>
+                        <h2 class='nav-section-title' id='section-types-of-learning'>
+                            Types of Learning <a class='headerlink' href='#section-types-of-learning' title='Permanent link'>↵</a>
+                        </h2>
+                        <section class="print-page" id="ml-type-supervised-learning"><h1 id="ml-type-supervised-learning-supervised-learning">Supervised Learning</h1>
+<ul>
+<li>In order to train a machine learning model, we need to provide it with <strong><em>training data</em></strong>.</li>
+<li>The training data consists of a set of instances. Each instance is a pair of an input and an output. The input is a set of <strong><em>features</em></strong> and the output is a <strong><em>label</em></strong>.</li>
+<li>The goal of supervised learning is to learn a <strong><em>function</em></strong> that maps the <strong><em>input</em></strong> to the <strong><em>output</em></strong>.</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>The term <em>feature</em> is used interchangeably with the term <em>attribute</em>. An attribute usually denotes a property name only while a feature denotes a property name and value.</p>
+</div>
+<p>The output variable can either be a <a href="#ml-concept-regression">regression</a> or a <a href="#ml-concept-classification">classification</a> value.</p>
+<h2 id="ml-type-supervised-learning-examples">Examples</h2>
+<p>The following are examples of machine learning algorithms that use supervised learning:</p>
+<ol>
+<li><a href="#ml-algorithm-supervised-linear-regression">Linear Regression</a></li>
+<li><a href="#ml-algorithm-supervised-logistic-regression">Logistic Regression</a></li>
+<li><a href="#ml-algorithm-supervised-support-vector-machine">Support Vector Machine</a></li>
+<li><a href="#ml-algorithm-supervised-decision-tree">Decision Tree</a></li>
+<li><a href="#ml-algorithm-supervised-random-forest">Random Forest</a></li>
+<li><a href="#ml-algorithm-supervised-neural-network">Neural Network</a></li>
+<li><a href="#ml-algorithm-supervised-k-nearest-neighbors">k-Nearest Neighbors</a></li>
+</ol></section><section class="print-page" id="ml-type-unsupervised-learning"><h1 id="ml-type-unsupervised-learning-unsupervised-learning">Unsupervised Learning</h1>
+<ul>
+<li>Unsupervised learning uses <strong>unlabeled data</strong> for training.</li>
+<li>This is particularly useful in problems where it is difficult to obtain labeled data.</li>
+<li>Unsupervised learning algorithms are useful for discovering patterns in data.</li>
+<li>The goal of unsupervised learning is use a feature vector as input and either outputs a feature vector or a label/value.</li>
+</ul>
+<h2 id="ml-type-unsupervised-learning-use-cases">Use Cases</h2>
+<ul>
+<li><strong><em>Clustering</em></strong> algorithm takes a feature vector as input and outputs a label. </li>
+<li><strong><em>Dimensionality reduction</em></strong> algorithms take a feature vector as input and output a feature vector with less features.</li>
+<li><strong><em>Anomaly detection</em></strong> algorithms take a feature vector as input and output is a real number indicating the degree of anomaly.</li>
+</ul>
+<h2 id="ml-type-unsupervised-learning-examples">Examples</h2>
+<ul>
+<li>Clustering:<ul>
+<li><a href="#ml-algorithm-unsupervised-k-means">k-Means</a></li>
+<li><a href="#ml-algorithm-unsupervised-hierarchical-clustering">Hierarchical Clustering</a></li>
+<li><a href="#ml-algorithm-unsupervised-dbscan">DBScan</a></li>
+</ul>
+</li>
+<li>Anomaly Detection:<ul>
+<li><a href="#ml-algorithm-unsupervised-isolation-forest">Isolation Forest</a></li>
+<li><a href="#ml-algorithm-unsupervised-one-class-svm">One-class SVM</a></li>
+</ul>
+</li>
+<li>Dimensionality Reduction:<ul>
+<li><a href="#ml-algorithm-unsupervised-principal-component-analysis">Principal Component Analysis</a></li>
+<li><a href="#ml-algorithm-unsupervised-t-distributed-stochastic-neighbor-embedding">t-Distributed Stochastic Neighbor Embedding</a></li>
+<li><a href="#ml-algorithm-unsupervised-kernel-pca">Kernel PCA</a></li>
+<li><a href="#ml-algorithm-unsupervised-locally-linear-embedding">Locally Linear Embedding</a></li>
+</ul>
+</li>
+<li>Association Rule Learning:<ul>
+<li><a href="#ml-algorithm-unsupervised-apriori">Apriori</a></li>
+<li><a href="#ml-algorithm-unsupervised-eclat">Eclat</a></li>
+</ul>
+</li>
+</ul></section><section class="print-page" id="ml-type-semi-supervised-learning"><h1 id="ml-type-semi-supervised-learning-semi-supervised-learning">Semi-supervised Learning</h1>
+<ul>
+<li>Semi-supervised learning is a type of machine learning that uses a combination of <strong><em>labeled and unlabeled data</em></strong> for training.</li>
+<li>The reason for using <strong><em>unlabeled data</em></strong> is because its easier to obtain and <strong><em>less expensive</em></strong> than labeled data.</li>
+<li>Semi-supervised learning algorithms are useful when there is a small amount of labeled data and a large amount of unlabeled data.</li>
+<li>The objective of semi-supervised learning is to <strong><em>improve the performance</em></strong> of supervised learning algorithms by using <strong><em>unlabeled data</em></strong>.</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Most semi-supervised learning algorithms are a <strong>combination</strong> of <strong>supervised</strong> and <strong>unsupervised learning</strong> algorithms.</p>
+</div></section><section class="print-page" id="ml-type-reinforcement-learning"><h1 id="ml-type-reinforcement-learning-reinforcement-learning">Reinforcement Learning</h1></section><h1 class='nav-section-title-end'>Ended: Types of Learning</h1>
+                        <h2 class='nav-section-title' id='section-batch-and-online'>
+                            Batch and Online <a class='headerlink' href='#section-batch-and-online' title='Permanent link'>↵</a>
+                        </h2>
+                        <section class="print-page" id="ml-type-batch-learning"><h1 id="ml-type-batch-learning-batch-learning">Batch Learning</h1></section><section class="print-page" id="ml-type-online-learning"><h1 id="ml-type-online-learning-online-learning">Online Learning</h1></section><h1 class='nav-section-title-end'>Ended: Batch and Online</h1>
+                        <h2 class='nav-section-title' id='section-instance-and-model'>
+                            Instance and Model <a class='headerlink' href='#section-instance-and-model' title='Permanent link'>↵</a>
+                        </h2>
+                        <section class="print-page" id="ml-type-instance-based-learning"><h1 id="ml-type-instance-based-learning-instance-based-learning">Instance-based learning</h1>
+<h2 id="ml-type-instance-based-learning-overview">Overview</h2>
+<p>Instance-based learning (also known as <strong>memory-based or lazy learning</strong>) involves learning from training examples and generalizing to new instances based on similarity measures12.</p>
+<h2 id="ml-type-instance-based-learning-pros">Pros</h2>
+<ul>
+<li><strong>Flexibility</strong>: Can adapt to new data without retraining.</li>
+<li><strong>Simplicity</strong>: Easy to implement and understand.</li>
+</ul>
+<h2 id="ml-type-instance-based-learning-cons">Cons</h2>
+<ul>
+<li><strong>Time Complexity</strong>: High time complexity, especially with large datasets.</li>
+<li><strong>Storage Requirements</strong>: Requires storing all training data.</li>
+</ul>
+<h2 id="ml-type-instance-based-learning-examples">Examples</h2>
+<ul>
+<li>K-Nearest Neighbors (KNN)</li>
+<li>Locally Weighted Learning (LWL)</li>
+<li>Case-Based Reasoning (CBR)</li>
+</ul></section><section class="print-page" id="ml-type-model-based-learning"><h1 id="ml-type-model-based-learning-model-based-learning">Model-based Learning</h1></section><h1 class='nav-section-title-end'>Ended: Instance and Model</h1><section class="print-page" id="ml-resources"><h1 id="ml-resources-resources">Resources</h1>
+<h2 id="ml-resources-books">Books</h2>
+<ol>
+<li>Data Science from Scratch</li>
+<li>The Hundred Pages Machine Learning Book</li>
+<li>Hands-On Machine Learning with Scikit-Learn, Keras, and Tensorflow</li>
+<li><a href="https://www.deeplearningbook.org/">Deep Learning</a></li>
+<li>Deep Learning with Python</li>
+<li>AI and Machine Learning for Coders</li>
+<li>Deep Learning from Scratch</li>
+<li><a href="https://d2l.ai/">Dive into Deep Learning</a></li>
+<li><a href="https://probml.github.io/pml-book/book1.html">Probabilistic Machine Learning</a></li>
+</ol>
+<h2 id="ml-resources-courses">Courses</h2>
+<ol>
+<li><a href="https://www.coursera.org/learn/machine-learning">Machine Learning</a></li>
+<li><a href="https://www.youtube.com/watch?v=XE3krf3CQls&amp;ab_channel=deeplizard">Backpropagation explained | Part 1 - The intuition - YouTube</a></li>
+<li><a href="https://www.coursera.org/specializations/deep-learning">Deep Learning Specialization</a></li>
+<li><a href="https://www.coursera.org/professional-certificates/tensorflow-in-practice">Tensorflow Developer Professional Certification</a></li>
+<li><a href="https://www.coursera.org/specializations/tensorflow-advanced-techniques">Tensorflow: Advanced Techniques</a></li>
+<li><a href="https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops">Machine Learning in Production</a></li>
+<li><a href="http://introtodeeplearning.com/">MIT Deep Learning 6.S191</a></li>
+<li><a href="https://atcold.github.io/pytorch-Deep-Learning/">DS-GA 1008 Deep Learning</a></li>
+<li><a href="https://cs182sp21.github.io/">CS 182: Deep Learning</a></li>
+<li><a href="https://github.com/kuleshov/cornell-cs5785-2020-applied-ml">CS5785 Applied Machine Learning</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PL_iWQOsE6TfVmKkQHucjPAoRtIJYt8a5A">Deep Learning: CS 182 Spring 2021</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLLHTzKZzVU9eaEyErdV26ikyolxOsz6mq">NYU Deep Learning SP20</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLZSO_6-bSqHQsDaBNtcFwMQuJw_djFnbd">Deep Learning Crash Course 2021</a></li>
+<li><a href="https://www.youtube.com/watch?v=vnx6M7N-ggs&amp;list=PL8PYTP1V4I8AkaHEJ7lOOrlex-pcxS-XV">CMU Neural Nets for NLP 2021</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PL_iWQOsE6TfURIIhCrlt-wj9ByIVpbfGc">Deep Reinforcement Learning: CS 285 Fall 2020 - YouTube</a></li>
+<li><a href="https://stanford-cs329s.github.io/index.html">CS 329S: Machine Learning Systems Design</a></li>
+<li><a href="https://fullstackdeeplearning.com/">Full Stack Deep Learning</a></li>
+<li><a href="https://github.com/rasbt/stat479-machine-learning-fs19">STAT 479: Machine Learning University Wisconsin-Madison</a></li>
+<li><a href="https://madewithml.com/#foundations">Made With ML</a></li>
+<li><a href="https://course.fast.ai/">Practical Deep Learning for Coders (fast.ai)</a></li>
+<li><a href="http://cs330.stanford.edu/">CS 330 Deep Multi-Task and Meta Learning (stanford.edu)</a></li>
+</ol>
+<h2 id="ml-resources-blog-posts">Blog Posts</h2>
+<ol>
+<li><a href="https://medium.com/tensorflow/mit-deep-learning-basics-introduction-and-overview-with-tensorflow-355bcd26baf0">MIT Deep Learning Basics: Introduction and Overview with TensorFlow | by Lex Fridman | TensorFlow | Medium</a></li>
+<li><a href="https://e2eml.school/transformers.html">Transformers from Scratch (e2eml.school)</a></li>
+<li><a href="https://e2eml.school/blog.html">E2EML.school</a></li>
+<li><a href="https://ml-cheatsheet.readthedocs.io/en/latest/index.html">Machine Learning Glossary</a></li>
+</ol>
+<h2 id="ml-resources-educational-projects">Educational Projects</h2>
+<ol>
+<li><a href="https://www.kaggle.com/c/titanic">Titanic - Machine Learning from Disaster</a></li>
+<li><a href="https://www.kaggle.com/c/house-prices-advanced-regression-techniques">House Prices - Advanced Regression Techniques</a></li>
+<li><a href="https://www.kaggle.com/ronitf/heart-disease-uci">Heart Disease UCI</a></li>
+<li><a href="https://www.kaggle.com/c/digit-recognizer">Digit Recognizer</a></li>
+<li><a href="https://www.kaggle.com/kazanova/sentiment140">Sentiment140 dataset with 1.6 million tweets</a></li>
+<li><a href="https://www.kaggle.com/uciml/pima-indians-diabetes-database">Pima Indians Diabetes Database</a></li>
+<li><a href="https://www.kaggle.com/c/breast-cancer-classification">Breast Cancer Classification</a></li>
+<li><a href="https://www.kaggle.com/c/tmdb-box-office-prediction">TMDB Box Office Prediction</a></li>
+<li><a href="https://www.kaggle.com/vjchoudhary7/customer-segmentation-tutorial-in-python">Mall Customer Segmentation Data</a></li>
+<li><a href="https://www.kaggle.com/c/demand-forecasting-kernels-only">Store Item Demand Forecasting Challenge</a></li>
+<li><a href="https://www.kaggle.com/roshansharma/market-basket-optimization">Market Basket Optimization</a></li>
+<li><a href="https://www.kaggle.com/c/nyc-taxi-trip-duration">New York City Taxi Trip Duration</a></li>
+<li><a href="https://www.kaggle.com/uciml/sms-spam-collection-dataset">SMS Spam Collection Dataset</a></li>
+<li><a href="https://www.kaggle.com/datasnaek/mbti-type">(MBTI) Myers-Briggs Personality Type Dataset</a></li>
+</ol>
+<h2 id="ml-resources-tools-and-platforms">Tools and Platforms</h2>
+<ol>
+<li><a href="https://wandb.ai/site">Weights &amp; Biases – Developer tools for ML (wandb.ai)</a></li>
+<li><a href="https://mlflow.org/">MLflow - A platform for the machine learning lifecycle | MLflow</a></li>
+<li><a href="https://github.com/HarisIqbal88/PlotNeuralNet">PlotNeuralNet: Latex code for making neural networks diagrams (github.com)</a></li>
+</ol>
+<h2 id="ml-resources-frameworks">Frameworks</h2>
+<ol>
+<li><a href="https://www.tensorflow.org/tutorials">TensorFlow</a></li>
+<li><a href="https://pytorch.org/tutorials/">PyTorch</a></li>
+</ol></section><h1 class='nav-section-title-end'>Ended: Machine Learning</h1>
+                        <h1 class='nav-section-title' id='section-python'>
+                            Python <a class='headerlink' href='#section-python' title='Permanent link'>↵</a>
+                        </h1>
+                        <section class="print-page" id="python-python"><h1 id="python-python-python">Python</h1>
+<p>The following notes are a set of primers into using python. It covers the following topics:</p>
+<ol>
+<li><strong>Language</strong>: Primer for a set of topics that cover the python programming language.</li>
+<li><strong>Libraries</strong>: Primer of important libraries that are mainly used in data science.</li>
+</ol></section>
+                        <h2 class='nav-section-title' id='section-language'>
+                            Language <a class='headerlink' href='#section-language' title='Permanent link'>↵</a>
+                        </h2>
+                        <section class="print-page" id="python-language-functions"><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script>
+(function() {
+  function addWidgetsRenderer() {
+    var requireJsScript = document.createElement('script');
+    requireJsScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js';
+
+    var mimeElement = document.querySelector('script[type="application/vnd.jupyter.widget-view+json"]');
+    var jupyterWidgetsScript = document.createElement('script');
+    var widgetRendererSrc = 'https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js';
+    var widgetState;
+
+    // Fallback for older version:
+    try {
+      widgetState = mimeElement && JSON.parse(mimeElement.innerHTML);
+
+      if (widgetState && (widgetState.version_major < 2 || !widgetState.version_major)) {
+        widgetRendererSrc = 'jupyter-js-widgets@*/dist/embed.js';
+      }
+    } catch(e) {}
+
+    jupyterWidgetsScript.src = widgetRendererSrc;
+
+    document.body.appendChild(requireJsScript);
+    document.body.appendChild(jupyterWidgetsScript);
+  }
+
+  document.addEventListener('DOMContentLoaded', addWidgetsRenderer);
+}());
+</script>
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="python-language-functions-functions">Functions</h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>A function is a rule that takes a set of inputs and returns a corresponding output.</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="python-language-functions-definition">Definition</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#python-language-functions-__codelineno-0-1"></a><span class="k">def</span> <span class="nf">function_name</span><span class="p">(</span><span class="n">param</span><span class="p">):</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#python-language-functions-__codelineno-0-2"></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#python-language-functions-__codelineno-0-3"></a><span class="sd">    Docstring where the documentation of the function is present</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#python-language-functions-__codelineno-0-4"></a><span class="sd">    &quot;&quot;&quot;</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#python-language-functions-__codelineno-0-5"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Output: &quot;</span><span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">param</span><span class="p">))</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#python-language-functions-__codelineno-0-6"></a>    <span class="k">return</span> <span class="n">param</span>
+</code></pre></div>
+
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="python-language-functions-assignment">Assignment</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#python-language-functions-__codelineno-1-1"></a><span class="n">function_copy</span> <span class="o">=</span> <span class="n">function_name</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#python-language-functions-__codelineno-1-2"></a><span class="n">result</span> <span class="o">=</span> <span class="n">function_copy</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+<code>Output: 10
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="python-language-functions-lambda-functions">Lambda Functions</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>You can assign an annonymous (i.e. lambda) function to a variable</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#python-language-functions-__codelineno-2-1"></a><span class="n">lambda_output</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">*</span> <span class="mi">2</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#python-language-functions-__codelineno-2-2"></a><span class="n">output</span> <span class="o">=</span> <span class="n">lambda_output</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#python-language-functions-__codelineno-2-3"></a><span class="nb">print</span><span class="p">(</span><span class="n">output</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+<code>4
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>You can also create an lambda function that is passed as a parameter to another function</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#python-language-functions-__codelineno-3-1"></a><span class="k">def</span> <span class="nf">lambda_function</span><span class="p">(</span><span class="n">f</span><span class="p">):</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#python-language-functions-__codelineno-3-2"></a>    <span class="k">return</span> <span class="n">f</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#python-language-functions-__codelineno-3-3"></a>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#python-language-functions-__codelineno-3-4"></a><span class="n">lambda_output</span> <span class="o">=</span> <span class="n">lambda_function</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">*</span><span class="mi">2</span><span class="p">)</span>
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#python-language-functions-__codelineno-3-5"></a><span class="nb">print</span><span class="p">(</span><span class="n">lambda_output</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+<code>2
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="python-language-functions-default-parameters">Default Parameters</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#python-language-functions-__codelineno-4-1"></a><span class="k">def</span> <span class="nf">sample_function</span><span class="p">(</span><span class="n">first</span><span class="o">=</span><span class="s2">&quot;Hi&quot;</span><span class="p">,</span> <span class="n">second</span><span class="o">=</span><span class="s2">&quot;Amgad&quot;</span><span class="p">):</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#python-language-functions-__codelineno-4-2"></a>    <span class="k">return</span> <span class="n">first</span> <span class="o">+</span> <span class="s2">&quot; &quot;</span> <span class="o">+</span> <span class="n">second</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#python-language-functions-__codelineno-4-3"></a>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#python-language-functions-__codelineno-4-4"></a><span class="nb">print</span><span class="p">(</span><span class="n">sample_function</span><span class="p">(</span><span class="s2">&quot;Hi&quot;</span><span class="p">))</span>
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#python-language-functions-__codelineno-4-5"></a><span class="nb">print</span><span class="p">(</span><span class="n">sample_function</span><span class="p">(</span><span class="s2">&quot;Hi&quot;</span><span class="p">,</span> <span class="s2">&quot;Amgad&quot;</span><span class="p">))</span>
+<a id="__codelineno-4-6" name="__codelineno-4-6" href="#python-language-functions-__codelineno-4-6"></a><span class="nb">print</span><span class="p">(</span><span class="n">sample_function</span><span class="p">(</span><span class="n">first</span><span class="o">=</span><span class="s2">&quot;Hi&quot;</span><span class="p">,</span> <span class="n">second</span><span class="o">=</span><span class="s2">&quot;Amgad&quot;</span><span class="p">))</span>
+<a id="__codelineno-4-7" name="__codelineno-4-7" href="#python-language-functions-__codelineno-4-7"></a><span class="nb">print</span><span class="p">(</span><span class="n">sample_function</span><span class="p">(</span><span class="n">second</span><span class="o">=</span><span class="s2">&quot;Amgad&quot;</span><span class="p">,</span> <span class="n">first</span><span class="o">=</span><span class="s2">&quot;Hi&quot;</span><span class="p">))</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+<code>Hi World
+Hi Amgad
+Hi Amgad
+Hi Amgad
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div></section><section class="print-page" id="python-language-classes"><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script>
+(function() {
+  function addWidgetsRenderer() {
+    var requireJsScript = document.createElement('script');
+    requireJsScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js';
+
+    var mimeElement = document.querySelector('script[type="application/vnd.jupyter.widget-view+json"]');
+    var jupyterWidgetsScript = document.createElement('script');
+    var widgetRendererSrc = 'https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js';
+    var widgetState;
+
+    // Fallback for older version:
+    try {
+      widgetState = mimeElement && JSON.parse(mimeElement.innerHTML);
+
+      if (widgetState && (widgetState.version_major < 2 || !widgetState.version_major)) {
+        widgetRendererSrc = 'jupyter-js-widgets@*/dist/embed.js';
+      }
+    } catch(e) {}
+
+    jupyterWidgetsScript.src = widgetRendererSrc;
+
+    document.body.appendChild(requireJsScript);
+    document.body.appendChild(jupyterWidgetsScript);
+  }
+
+  document.addEventListener('DOMContentLoaded', addWidgetsRenderer);
+}());
+</script>
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="python-language-classes-classes">Classes</h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>A Python class is a blueprint for creating objects that bundle data (attributes) and behavior (methods). It defines a custom type by specifying the structure and functionality that its instances will have, supporting encapsulation and reuse. Classes enable object-oriented features like inheritance and polymorphism, allowing extension and customization of behavior.</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="python-language-classes-defining-a-class">Defining a class</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#python-language-classes-__codelineno-0-1"></a><span class="k">class</span> <span class="nc">Car</span><span class="p">:</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#python-language-classes-__codelineno-0-2"></a>    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">make</span><span class="p">,</span> <span class="n">model</span><span class="p">,</span> <span class="n">year</span><span class="p">):</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#python-language-classes-__codelineno-0-3"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">make</span> <span class="o">=</span> <span class="n">make</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#python-language-classes-__codelineno-0-4"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">model</span> <span class="o">=</span> <span class="n">model</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#python-language-classes-__codelineno-0-5"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">year</span> <span class="o">=</span> <span class="n">year</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#python-language-classes-__codelineno-0-6"></a>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#python-language-classes-__codelineno-0-7"></a>    <span class="k">def</span> <span class="nf">display</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#python-language-classes-__codelineno-0-8"></a>        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot; </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">year</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">make</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li><strong><strong>init</strong>()</strong> : is the instance initializer that runs automatically after a new object is created typically used to set up initial state (attributes) for that instance.</li>
+<li><strong>self</strong> :  is the reference to the current object, passed as the first parameter to instance methods so you can access and modify the object attributes and call its other methods.</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="python-language-classes-declaring-an-instance-of-a-class">Declaring an instance of a class</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#python-language-classes-__codelineno-1-1"></a><span class="n">car</span> <span class="o">=</span> <span class="n">Car</span><span class="p">(</span><span class="s2">&quot;Volvo&quot;</span><span class="p">,</span> <span class="s2">&quot;XC90&quot;</span><span class="p">,</span> <span class="s2">&quot;2023&quot;</span><span class="p">)</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#python-language-classes-__codelineno-1-2"></a><span class="n">car</span><span class="o">.</span><span class="n">display</span><span class="p">()</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#python-language-classes-__codelineno-1-3"></a><span class="n">car</span><span class="o">.</span><span class="n">model</span> <span class="o">=</span> <span class="s2">&quot;XC60&quot;</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#python-language-classes-__codelineno-1-4"></a><span class="n">car</span><span class="o">.</span><span class="n">display</span><span class="p">()</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+<code> 2023 Volvo XC90
+ 2023 Volvo XC60
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="python-language-classes-inheritence">Inheritence</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#python-language-classes-__codelineno-2-1"></a><span class="k">class</span> <span class="nc">ElectricCar</span><span class="p">(</span><span class="n">Car</span><span class="p">):</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#python-language-classes-__codelineno-2-2"></a>    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">make</span><span class="p">,</span> <span class="n">model</span><span class="p">,</span> <span class="n">year</span><span class="p">):</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#python-language-classes-__codelineno-2-3"></a>        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">make</span><span class="p">,</span> <span class="n">model</span><span class="p">,</span> <span class="n">year</span><span class="p">)</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#python-language-classes-__codelineno-2-4"></a>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#python-language-classes-__codelineno-2-5"></a><span class="n">car</span> <span class="o">=</span> <span class="n">ElectricCar</span><span class="p">(</span><span class="s2">&quot;Rivian&quot;</span><span class="p">,</span> <span class="s2">&quot;R1S&quot;</span><span class="p">,</span> <span class="s2">&quot;2023&quot;</span><span class="p">)</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#python-language-classes-__codelineno-2-6"></a><span class="n">car</span><span class="o">.</span><span class="n">display</span><span class="p">()</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+<code> 2023 Rivian R1S
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li><strong>super()</strong>: is a built-in function in Python that provides access to methods in a parent or superclass from a child class. It's commonly used in inheritance to call methods from the parent class, especially in the <strong>init</strong> method.</li>
+</ul>
+</div>
+</div>
+</div></section><section class="print-page" id="python-language-lists"><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script>
+(function() {
+  function addWidgetsRenderer() {
+    var requireJsScript = document.createElement('script');
+    requireJsScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js';
+
+    var mimeElement = document.querySelector('script[type="application/vnd.jupyter.widget-view+json"]');
+    var jupyterWidgetsScript = document.createElement('script');
+    var widgetRendererSrc = 'https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js';
+    var widgetState;
+
+    // Fallback for older version:
+    try {
+      widgetState = mimeElement && JSON.parse(mimeElement.innerHTML);
+
+      if (widgetState && (widgetState.version_major < 2 || !widgetState.version_major)) {
+        widgetRendererSrc = 'jupyter-js-widgets@*/dist/embed.js';
+      }
+    } catch(e) {}
+
+    jupyterWidgetsScript.src = widgetRendererSrc;
+
+    document.body.appendChild(requireJsScript);
+    document.body.appendChild(jupyterWidgetsScript);
+  }
+
+  document.addEventListener('DOMContentLoaded', addWidgetsRenderer);
+}());
+</script>
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="python-language-lists-lists">Lists</h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>An ordered collection of items. The concept of lists is similar to the concept of <em>arrays</em> in other languages but with more extensive functionalities.</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="python-language-lists-defining-a-list">Defining a List</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#python-language-lists-__codelineno-0-1"></a><span class="n">int_list</span> <span class="o">=</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">]</span>
+</code></pre></div>
+
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#python-language-lists-__codelineno-1-1"></a><span class="n">mixed_list</span> <span class="o">=</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="s2">&quot;Hello&quot;</span><span class="p">,</span> <span class="mf">20.30</span><span class="p">]</span>
+</code></pre></div>
+
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#python-language-lists-__codelineno-2-1"></a><span class="n">list_of_lists</span> <span class="o">=</span> <span class="p">[</span><span class="n">int_list</span><span class="p">,</span> <span class="n">mixed_list</span><span class="p">,</span> <span class="p">[]]</span>
+</code></pre></div>
+
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="python-language-lists-accessing-a-list">Accessing a List</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#python-language-lists-__codelineno-3-1"></a><span class="n">lst</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span>
+</code></pre></div>
+
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#python-language-lists-__codelineno-4-1"></a><span class="n">one</span> <span class="o">=</span> <span class="n">lst</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#python-language-lists-__codelineno-4-2"></a><span class="n">one</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_text output_subarea output_execute_result">
+<pre>
+<code>0</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#python-language-lists-__codelineno-5-1"></a><span class="n">four</span> <span class="o">=</span> <span class="n">lst</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#python-language-lists-__codelineno-5-2"></a><span class="n">four</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_text output_subarea output_execute_result">
+<pre>
+<code>4</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#python-language-lists-__codelineno-6-1"></a><span class="n">three</span> <span class="o">=</span> <span class="n">lst</span><span class="p">[</span><span class="o">-</span><span class="mi">2</span><span class="p">]</span>
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#python-language-lists-__codelineno-6-2"></a><span class="n">three</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_text output_subarea output_execute_result">
+<pre>
+<code>3</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="python-language-lists-slicing-a-list">Slicing a List</h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#python-language-lists-__codelineno-7-1"></a><span class="n">lst</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_text output_subarea output_execute_result">
+<pre>
+<code>[0, 1, 2, 3]</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#python-language-lists-__codelineno-8-1"></a><span class="n">lst</span><span class="p">[:</span><span class="mi">3</span><span class="p">]</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_text output_subarea output_execute_result">
+<pre>
+<code>[0, 1, 2]</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#python-language-lists-__codelineno-9-1"></a><span class="n">lst</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_text output_subarea output_execute_result">
+<pre>
+<code>[1, 2, 3, 4]</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#python-language-lists-__codelineno-10-1"></a><span class="n">lst</span><span class="p">[:]</span> <span class="c1"># Copy</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_text output_subarea output_execute_result">
+<pre>
+<code>[0, 1, 2, 3, 4]</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#python-language-lists-__codelineno-11-1"></a><span class="n">lst</span><span class="p">[::</span><span class="mi">2</span><span class="p">]</span> <span class="c1"># Every second element</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_text output_subarea output_execute_result">
+<pre>
+<code>[0, 2, 4]</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#python-language-lists-__codelineno-12-1"></a><span class="n">lst</span><span class="p">[</span><span class="mi">4</span><span class="p">:</span><span class="mi">0</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_text output_subarea output_execute_result">
+<pre>
+<code>[4, 3, 2, 1]</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="python-language-lists-extending-a-list">Extending a List</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#python-language-lists-__codelineno-13-1"></a><span class="n">lst</span> <span class="o">+</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">]</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_text output_subarea output_execute_result">
+<pre>
+<code>[1, 2, 3, 4, 5, 6, 7]</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#python-language-lists-__codelineno-14-1"></a><span class="n">lst</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_text output_subarea output_execute_result">
+<pre>
+<code>[1, 2, 3, 4]</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#python-language-lists-__codelineno-15-1"></a><span class="n">lst</span><span class="o">.</span><span class="n">extend</span><span class="p">([</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">])</span>
+<a id="__codelineno-15-2" name="__codelineno-15-2" href="#python-language-lists-__codelineno-15-2"></a><span class="n">lst</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_text output_subarea output_execute_result">
+<pre>
+<code>[1, 2, 3, 4, 5, 6, 7]</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="python-language-lists-unpack-a-list">Unpack a List</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#python-language-lists-__codelineno-16-1"></a><span class="n">lst</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">]</span>
+<a id="__codelineno-16-2" name="__codelineno-16-2" href="#python-language-lists-__codelineno-16-2"></a><span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">lst</span>
+<a id="__codelineno-16-3" name="__codelineno-16-3" href="#python-language-lists-__codelineno-16-3"></a><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="s2">&quot; &quot;</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+<code>1   2
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#python-language-lists-__codelineno-17-1"></a><span class="n">_</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">lst</span>
+<a id="__codelineno-17-2" name="__codelineno-17-2" href="#python-language-lists-__codelineno-17-2"></a><span class="n">y</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_text output_subarea output_execute_result">
+<pre>
+<code>2</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div></section><section class="print-page" id="python-language-modules"><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script>
+(function() {
+  function addWidgetsRenderer() {
+    var requireJsScript = document.createElement('script');
+    requireJsScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js';
+
+    var mimeElement = document.querySelector('script[type="application/vnd.jupyter.widget-view+json"]');
+    var jupyterWidgetsScript = document.createElement('script');
+    var widgetRendererSrc = 'https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js';
+    var widgetState;
+
+    // Fallback for older version:
+    try {
+      widgetState = mimeElement && JSON.parse(mimeElement.innerHTML);
+
+      if (widgetState && (widgetState.version_major < 2 || !widgetState.version_major)) {
+        widgetRendererSrc = 'jupyter-js-widgets@*/dist/embed.js';
+      }
+    } catch(e) {}
+
+    jupyterWidgetsScript.src = widgetRendererSrc;
+
+    document.body.appendChild(requireJsScript);
+    document.body.appendChild(jupyterWidgetsScript);
+  }
+
+  document.addEventListener('DOMContentLoaded', addWidgetsRenderer);
+}());
+</script>
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="python-language-modules-modules">Modules</h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Modules encapsulate a set of features whether it be of the language or of third-party software.</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>There are multiple ways to import modules:</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ol>
+<li>Import using the <strong>module name</strong></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#python-language-modules-__codelineno-0-1"></a><span class="kn">import</span> <span class="nn">re</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#python-language-modules-__codelineno-0-2"></a>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#python-language-modules-__codelineno-0-3"></a><span class="n">my_regex</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="s2">&quot;[0-9]+&quot;</span><span class="p">,</span> <span class="n">re</span><span class="o">.</span><span class="n">I</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ol>
+<li>Access module using an <strong>alias</strong></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#python-language-modules-__codelineno-1-1"></a><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+</code></pre></div>
+
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ol>
+<li>Import specific values <strong>from</strong> the module</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#python-language-modules-__codelineno-2-1"></a><span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+</code></pre></div>
+
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Users should avoid importing modules using * to avoid overriding local variables.</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#python-language-modules-__codelineno-3-1"></a><span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="o">*</span> <span class="c1">#AVOID DOING THIS IF POSSIBLE!</span>
+</code></pre></div>
+
+</div>
+</div></section><section class="print-page" id="python-language-strings"><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script>
+(function() {
+  function addWidgetsRenderer() {
+    var requireJsScript = document.createElement('script');
+    requireJsScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js';
+
+    var mimeElement = document.querySelector('script[type="application/vnd.jupyter.widget-view+json"]');
+    var jupyterWidgetsScript = document.createElement('script');
+    var widgetRendererSrc = 'https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js';
+    var widgetState;
+
+    // Fallback for older version:
+    try {
+      widgetState = mimeElement && JSON.parse(mimeElement.innerHTML);
+
+      if (widgetState && (widgetState.version_major < 2 || !widgetState.version_major)) {
+        widgetRendererSrc = 'jupyter-js-widgets@*/dist/embed.js';
+      }
+    } catch(e) {}
+
+    jupyterWidgetsScript.src = widgetRendererSrc;
+
+    document.body.appendChild(requireJsScript);
+    document.body.appendChild(jupyterWidgetsScript);
+  }
+
+  document.addEventListener('DOMContentLoaded', addWidgetsRenderer);
+}());
+</script>
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="python-language-strings-strings">Strings</h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Strings can be represented using single or double quotes:</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#python-language-strings-__codelineno-0-1"></a><span class="n">str1</span> <span class="o">=</span> <span class="s2">&quot;Hello World&quot;</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#python-language-strings-__codelineno-0-2"></a><span class="n">str2</span> <span class="o">=</span> <span class="s1">&#39;Hello World&#39;</span>
+</code></pre></div>
+
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="python-language-strings-concatenation">Concatenation</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>There are multiple ways to concatenate two string:</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#python-language-strings-__codelineno-1-1"></a><span class="n">str1</span> <span class="o">=</span> <span class="s2">&quot;Hello&quot;</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#python-language-strings-__codelineno-1-2"></a><span class="n">str2</span> <span class="o">=</span> <span class="s2">&quot;World&quot;</span>
+</code></pre></div>
+
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="python-language-strings-string-concatenation">String Concatenation</h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#python-language-strings-__codelineno-2-1"></a><span class="n">both</span> <span class="o">=</span> <span class="n">str1</span> <span class="o">+</span> <span class="s2">&quot; &quot;</span> <span class="o">+</span> <span class="n">str2</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#python-language-strings-__codelineno-2-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">both</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+<code>Hello World
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="python-language-strings-format-concatenation">Format Concatenation</h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#python-language-strings-__codelineno-3-1"></a><span class="n">both</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="si">{0}</span><span class="s2"> </span><span class="si">{1}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">str1</span><span class="p">,</span> <span class="n">str2</span><span class="p">)</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#python-language-strings-__codelineno-3-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">both</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+<code>Hello World
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="python-language-strings-f-string">f-string</h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#python-language-strings-__codelineno-4-1"></a><span class="n">both</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">str1</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">str2</span><span class="si">}</span><span class="s2">&quot;</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#python-language-strings-__codelineno-4-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">both</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+<code>Hello World
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div></section><section class="print-page" id="python-language-regexp"><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script>
+(function() {
+  function addWidgetsRenderer() {
+    var requireJsScript = document.createElement('script');
+    requireJsScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js';
+
+    var mimeElement = document.querySelector('script[type="application/vnd.jupyter.widget-view+json"]');
+    var jupyterWidgetsScript = document.createElement('script');
+    var widgetRendererSrc = 'https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js';
+    var widgetState;
+
+    // Fallback for older version:
+    try {
+      widgetState = mimeElement && JSON.parse(mimeElement.innerHTML);
+
+      if (widgetState && (widgetState.version_major < 2 || !widgetState.version_major)) {
+        widgetRendererSrc = 'jupyter-js-widgets@*/dist/embed.js';
+      }
+    } catch(e) {}
+
+    jupyterWidgetsScript.src = widgetRendererSrc;
+
+    document.body.appendChild(requireJsScript);
+    document.body.appendChild(jupyterWidgetsScript);
+  }
+
+  document.addEventListener('DOMContentLoaded', addWidgetsRenderer);
+}());
+</script>
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="python-language-regexp-regular-expressions">Regular Expressions</h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Python regular expressions (regex) are compact pattern descriptions written in a special mini-language that let you search, match, extract, and transform substrings in text. In Python the built-in re module provides functions to compile and apply these patterns, supporting character classes, quantifiers, grouping, and lookaround assertions for powerful text processing.</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="python-language-regexp-module">Module</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#python-language-regexp-__codelineno-0-1"></a><span class="kn">import</span> <span class="nn">re</span>
+</code></pre></div>
+
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="python-language-regexp-search">search()</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#python-language-regexp-__codelineno-1-1"></a><span class="kn">import</span> <span class="nn">re</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#python-language-regexp-__codelineno-1-2"></a><span class="n">txt</span> <span class="o">=</span> <span class="s2">&quot;Python is a programming language&quot;</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#python-language-regexp-__codelineno-1-3"></a><span class="n">x</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="s2">&quot;^Python.*language$&quot;</span><span class="p">,</span> <span class="n">txt</span><span class="p">)</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#python-language-regexp-__codelineno-1-4"></a><span class="k">if</span> <span class="n">x</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#python-language-regexp-__codelineno-1-5"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Match Found&quot;</span><span class="p">)</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#python-language-regexp-__codelineno-1-6"></a><span class="k">else</span><span class="p">:</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#python-language-regexp-__codelineno-1-7"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Match not found&quot;</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+<code>Match Found
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="python-language-regexp-findall">findall()</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#python-language-regexp-__codelineno-2-1"></a><span class="kn">import</span> <span class="nn">re</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#python-language-regexp-__codelineno-2-2"></a>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#python-language-regexp-__codelineno-2-3"></a><span class="n">txt</span> <span class="o">=</span> <span class="s2">&quot;Python is a programming language&quot;</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#python-language-regexp-__codelineno-2-4"></a><span class="n">x</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s2">&quot;i&quot;</span><span class="p">,</span> <span class="n">txt</span><span class="p">)</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#python-language-regexp-__codelineno-2-5"></a><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+<code>[&#39;i&#39;, &#39;i&#39;]
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="python-language-regexp-split">split()</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#python-language-regexp-__codelineno-3-1"></a><span class="kn">import</span> <span class="nn">re</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#python-language-regexp-__codelineno-3-2"></a>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#python-language-regexp-__codelineno-3-3"></a><span class="n">txt</span> <span class="o">=</span> <span class="s2">&quot;Python is a programming language&quot;</span>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#python-language-regexp-__codelineno-3-4"></a><span class="n">x</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;\s&quot;</span><span class="p">,</span> <span class="n">txt</span><span class="p">)</span>
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#python-language-regexp-__codelineno-3-5"></a><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+<code>[&#39;Python&#39;, &#39;is&#39;, &#39;a&#39;, &#39;programming&#39;, &#39;language&#39;]
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="python-language-regexp-sub">sub()</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#python-language-regexp-__codelineno-4-1"></a><span class="kn">import</span> <span class="nn">re</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#python-language-regexp-__codelineno-4-2"></a>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#python-language-regexp-__codelineno-4-3"></a><span class="n">txt</span> <span class="o">=</span> <span class="s2">&quot;Python is a programming language&quot;</span>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#python-language-regexp-__codelineno-4-4"></a><span class="n">x</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;\s&quot;</span><span class="p">,</span> <span class="s2">&quot;X&quot;</span><span class="p">,</span> <span class="n">txt</span><span class="p">)</span>
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#python-language-regexp-__codelineno-4-5"></a><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+<code>PythonXisXaXprogrammingXlanguage
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="python-language-regexp-match-object">Match Object</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#python-language-regexp-__codelineno-5-1"></a><span class="kn">import</span> <span class="nn">re</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#python-language-regexp-__codelineno-5-2"></a>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#python-language-regexp-__codelineno-5-3"></a><span class="n">txt</span> <span class="o">=</span> <span class="s2">&quot;Python is #1 programming language&quot;</span>
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#python-language-regexp-__codelineno-5-4"></a><span class="n">x</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;\D+&quot;</span><span class="p">,</span> <span class="n">txt</span><span class="p">)</span>
+<a id="__codelineno-5-5" name="__codelineno-5-5" href="#python-language-regexp-__codelineno-5-5"></a><span class="k">if</span> <span class="n">x</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+<a id="__codelineno-5-6" name="__codelineno-5-6" href="#python-language-regexp-__codelineno-5-6"></a>    <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">group</span><span class="p">())</span>
+<a id="__codelineno-5-7" name="__codelineno-5-7" href="#python-language-regexp-__codelineno-5-7"></a><span class="k">else</span><span class="p">:</span>
+<a id="__codelineno-5-8" name="__codelineno-5-8" href="#python-language-regexp-__codelineno-5-8"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;No match found&quot;</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+<code>Python is #
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div></section><section class="print-page" id="python-language-exceptions"><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script>
+(function() {
+  function addWidgetsRenderer() {
+    var requireJsScript = document.createElement('script');
+    requireJsScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js';
+
+    var mimeElement = document.querySelector('script[type="application/vnd.jupyter.widget-view+json"]');
+    var jupyterWidgetsScript = document.createElement('script');
+    var widgetRendererSrc = 'https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js';
+    var widgetState;
+
+    // Fallback for older version:
+    try {
+      widgetState = mimeElement && JSON.parse(mimeElement.innerHTML);
+
+      if (widgetState && (widgetState.version_major < 2 || !widgetState.version_major)) {
+        widgetRendererSrc = 'jupyter-js-widgets@*/dist/embed.js';
+      }
+    } catch(e) {}
+
+    jupyterWidgetsScript.src = widgetRendererSrc;
+
+    document.body.appendChild(requireJsScript);
+    document.body.appendChild(jupyterWidgetsScript);
+  }
+
+  document.addEventListener('DOMContentLoaded', addWidgetsRenderer);
+}());
+</script>
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="python-language-exceptions-exceptions">Exceptions</h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>An exception allows catching issues before they occur and add special handling to them.</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#python-language-exceptions-__codelineno-0-1"></a><span class="k">try</span><span class="p">:</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#python-language-exceptions-__codelineno-0-2"></a>    <span class="nb">print</span><span class="p">(</span><span class="mi">0</span><span class="o">/</span><span class="mi">0</span><span class="p">)</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#python-language-exceptions-__codelineno-0-3"></a><span class="k">except</span><span class="p">:</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#python-language-exceptions-__codelineno-0-4"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;All Exceptions&quot;</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+<code>All Exceptions
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#python-language-exceptions-__codelineno-1-1"></a><span class="k">try</span><span class="p">:</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#python-language-exceptions-__codelineno-1-2"></a>    <span class="nb">print</span><span class="p">(</span><span class="mi">0</span><span class="o">/</span><span class="mi">0</span><span class="p">)</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#python-language-exceptions-__codelineno-1-3"></a><span class="k">except</span> <span class="ne">ZeroDivisionError</span><span class="p">:</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#python-language-exceptions-__codelineno-1-4"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Divide by Zero Exception&quot;</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+<code>Divide by Zero Exception
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div></section><section class="print-page" id="python-language-tuples"><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script>
+(function() {
+  function addWidgetsRenderer() {
+    var requireJsScript = document.createElement('script');
+    requireJsScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js';
+
+    var mimeElement = document.querySelector('script[type="application/vnd.jupyter.widget-view+json"]');
+    var jupyterWidgetsScript = document.createElement('script');
+    var widgetRendererSrc = 'https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js';
+    var widgetState;
+
+    // Fallback for older version:
+    try {
+      widgetState = mimeElement && JSON.parse(mimeElement.innerHTML);
+
+      if (widgetState && (widgetState.version_major < 2 || !widgetState.version_major)) {
+        widgetRendererSrc = 'jupyter-js-widgets@*/dist/embed.js';
+      }
+    } catch(e) {}
+
+    jupyterWidgetsScript.src = widgetRendererSrc;
+
+    document.body.appendChild(requireJsScript);
+    document.body.appendChild(jupyterWidgetsScript);
+  }
+
+  document.addEventListener('DOMContentLoaded', addWidgetsRenderer);
+}());
+</script>
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="python-language-tuples-tuples">Tuples</h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Tuples are immutable lists so it supports all the same operations similar to a <a href="#python-language-lists">list</a> with the exception of modifications. Tuples are defined either using parantheses (with comma separation) or just as a comma separated list.</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#python-language-tuples-__codelineno-0-1"></a><span class="n">my_list</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">]</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#python-language-tuples-__codelineno-0-2"></a><span class="n">my_tuple</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#python-language-tuples-__codelineno-0-3"></a><span class="n">my_second_tuple</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span>
+</code></pre></div>
+
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#python-language-tuples-__codelineno-1-1"></a><span class="k">def</span> <span class="nf">add_multiply_function</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#python-language-tuples-__codelineno-1-2"></a>    <span class="k">return</span> <span class="p">(</span><span class="n">x</span> <span class="o">+</span> <span class="n">y</span><span class="p">),</span> <span class="p">(</span><span class="n">x</span> <span class="o">*</span> <span class="n">y</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#python-language-tuples-__codelineno-2-1"></a><span class="n">results</span> <span class="o">=</span> <span class="n">add_multiply_function</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#python-language-tuples-__codelineno-2-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">results</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+<code>(6, 8)
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#python-language-tuples-__codelineno-3-1"></a><span class="n">add</span><span class="p">,</span> <span class="n">multiply</span> <span class="o">=</span> <span class="n">add_multiply_function</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#python-language-tuples-__codelineno-3-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">add</span><span class="p">,</span> <span class="n">multiply</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+<code>9 18
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#python-language-tuples-__codelineno-4-1"></a><span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">20</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#python-language-tuples-__codelineno-4-2"></a><span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">y</span><span class="p">,</span> <span class="n">x</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#python-language-tuples-__codelineno-4-3"></a><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+<code>20 10
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div></section><section class="print-page" id="python-language-dictionaries"><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script>
+(function() {
+  function addWidgetsRenderer() {
+    var requireJsScript = document.createElement('script');
+    requireJsScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js';
+
+    var mimeElement = document.querySelector('script[type="application/vnd.jupyter.widget-view+json"]');
+    var jupyterWidgetsScript = document.createElement('script');
+    var widgetRendererSrc = 'https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js';
+    var widgetState;
+
+    // Fallback for older version:
+    try {
+      widgetState = mimeElement && JSON.parse(mimeElement.innerHTML);
+
+      if (widgetState && (widgetState.version_major < 2 || !widgetState.version_major)) {
+        widgetRendererSrc = 'jupyter-js-widgets@*/dist/embed.js';
+      }
+    } catch(e) {}
+
+    jupyterWidgetsScript.src = widgetRendererSrc;
+
+    document.body.appendChild(requireJsScript);
+    document.body.appendChild(jupyterWidgetsScript);
+  }
+
+  document.addEventListener('DOMContentLoaded', addWidgetsRenderer);
+}());
+</script>
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="python-language-dictionaries-dictionaries">Dictionaries</h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Dictionaries data structure associates values with keys. The keys allows the quick retreival of values.</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="python-language-dictionaries-definition">Definition</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#python-language-dictionaries-__codelineno-0-1"></a><span class="n">dict_one</span> <span class="o">=</span> <span class="p">{}</span> <span class="c1">#Pythonic</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#python-language-dictionaries-__codelineno-0-2"></a><span class="n">dict_two</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">()</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#python-language-dictionaries-__codelineno-0-3"></a><span class="n">dict_values</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;Name&quot;</span><span class="p">:</span> <span class="s2">&quot;John&quot;</span><span class="p">}</span>
+</code></pre></div>
+
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="python-language-dictionaries-access">Access</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#python-language-dictionaries-__codelineno-1-1"></a><span class="n">dict_values</span><span class="p">[</span><span class="s2">&quot;Name&quot;</span><span class="p">]</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_text output_subarea output_execute_result">
+<pre>
+<code>&#39;John&#39;</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#python-language-dictionaries-__codelineno-2-1"></a><span class="s2">&quot;John&quot;</span> <span class="ow">in</span> <span class="n">dict_values</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_text output_subarea output_execute_result">
+<pre>
+<code>False</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#python-language-dictionaries-__codelineno-3-1"></a><span class="s2">&quot;Jack&quot;</span> <span class="ow">in</span> <span class="n">dict_values</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_text output_subarea output_execute_result">
+<pre>
+<code>False</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#python-language-dictionaries-__codelineno-4-1"></a><span class="n">dict_values</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;Name&quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_text output_subarea output_execute_result">
+<pre>
+<code>&#39;John&#39;</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#python-language-dictionaries-__codelineno-5-1"></a><span class="n">dict_values</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;Address&quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_text output_subarea output_execute_result">
+<pre>
+<code>0</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#python-language-dictionaries-__codelineno-6-1"></a><span class="n">val</span> <span class="o">=</span> <span class="n">dict_values</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;Address&quot;</span><span class="p">)</span>
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#python-language-dictionaries-__codelineno-6-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">val</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+<code>None
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="python-language-dictionaries-modification">Modification</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#python-language-dictionaries-__codelineno-7-1"></a><span class="n">dict_values</span><span class="p">[</span><span class="s2">&quot;Name&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Adam&quot;</span>
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#python-language-dictionaries-__codelineno-7-2"></a><span class="n">dict_values</span><span class="p">[</span><span class="s2">&quot;Address&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;USA&quot;</span>
+<a id="__codelineno-7-3" name="__codelineno-7-3" href="#python-language-dictionaries-__codelineno-7-3"></a><span class="nb">len</span><span class="p">(</span><span class="n">dict_values</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_text output_subarea output_execute_result">
+<pre>
+<code>2</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="python-language-dictionaries-iterators">Iterators</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#python-language-dictionaries-__codelineno-8-1"></a><span class="n">dict_keys</span> <span class="o">=</span> <span class="n">dict_values</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
+<a id="__codelineno-8-2" name="__codelineno-8-2" href="#python-language-dictionaries-__codelineno-8-2"></a><span class="n">dict_vals</span> <span class="o">=</span> <span class="n">dict_values</span><span class="o">.</span><span class="n">values</span><span class="p">()</span>
+<a id="__codelineno-8-3" name="__codelineno-8-3" href="#python-language-dictionaries-__codelineno-8-3"></a><span class="n">dict_items</span> <span class="o">=</span> <span class="n">dict_values</span><span class="o">.</span><span class="n">items</span><span class="p">()</span>
+</code></pre></div>
+
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#python-language-dictionaries-__codelineno-9-1"></a><span class="s2">&quot;Name&quot;</span> <span class="ow">in</span> <span class="n">dict_keys</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_text output_subarea output_execute_result">
+<pre>
+<code>True</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#python-language-dictionaries-__codelineno-10-1"></a><span class="s2">&quot;Name&quot;</span> <span class="ow">in</span> <span class="n">dict_values</span> <span class="c1">#Pythonic</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_text output_subarea output_execute_result">
+<pre>
+<code>True</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#python-language-dictionaries-__codelineno-11-1"></a><span class="s2">&quot;Adam&quot;</span> <span class="ow">in</span> <span class="n">dict_vals</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_text output_subarea output_execute_result">
+<pre>
+<code>True</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="python-language-dictionaries-defaultdict">defaultdict</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The defaultdict structure allows creating a dictionary where in the event that a key does not exist, the defaultdict would add a new key with the default value passed as its parameter.</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#python-language-dictionaries-__codelineno-12-1"></a><span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">defaultdict</span>
+<a id="__codelineno-12-2" name="__codelineno-12-2" href="#python-language-dictionaries-__codelineno-12-2"></a><span class="n">document</span> <span class="o">=</span> <span class="s2">&quot;Hello this is a test and this is another test.&quot;</span>
+<a id="__codelineno-12-3" name="__codelineno-12-3" href="#python-language-dictionaries-__codelineno-12-3"></a><span class="n">word_count</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span> 
+<a id="__codelineno-12-4" name="__codelineno-12-4" href="#python-language-dictionaries-__codelineno-12-4"></a>
+<a id="__codelineno-12-5" name="__codelineno-12-5" href="#python-language-dictionaries-__codelineno-12-5"></a><span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">document</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39; &#39;</span><span class="p">):</span>
+<a id="__codelineno-12-6" name="__codelineno-12-6" href="#python-language-dictionaries-__codelineno-12-6"></a>    <span class="n">word_count</span><span class="p">[</span><span class="n">word</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
+<a id="__codelineno-12-7" name="__codelineno-12-7" href="#python-language-dictionaries-__codelineno-12-7"></a>
+<a id="__codelineno-12-8" name="__codelineno-12-8" href="#python-language-dictionaries-__codelineno-12-8"></a><span class="n">word_count</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_text output_subarea output_execute_result">
+<pre>
+<code>defaultdict(int,
+            {&#39;Hello&#39;: 1,
+             &#39;this&#39;: 2,
+             &#39;is&#39;: 2,
+             &#39;a&#39;: 1,
+             &#39;test&#39;: 1,
+             &#39;and&#39;: 1,
+             &#39;another&#39;: 1,
+             &#39;test.&#39;: 1})</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div></section><section class="print-page" id="python-language-counter"><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script>
+(function() {
+  function addWidgetsRenderer() {
+    var requireJsScript = document.createElement('script');
+    requireJsScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js';
+
+    var mimeElement = document.querySelector('script[type="application/vnd.jupyter.widget-view+json"]');
+    var jupyterWidgetsScript = document.createElement('script');
+    var widgetRendererSrc = 'https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js';
+    var widgetState;
+
+    // Fallback for older version:
+    try {
+      widgetState = mimeElement && JSON.parse(mimeElement.innerHTML);
+
+      if (widgetState && (widgetState.version_major < 2 || !widgetState.version_major)) {
+        widgetRendererSrc = 'jupyter-js-widgets@*/dist/embed.js';
+      }
+    } catch(e) {}
+
+    jupyterWidgetsScript.src = widgetRendererSrc;
+
+    document.body.appendChild(requireJsScript);
+    document.body.appendChild(jupyterWidgetsScript);
+  }
+
+  document.addEventListener('DOMContentLoaded', addWidgetsRenderer);
+}());
+</script>
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="python-language-counter-counter">Counter</h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>A counter returns a <a href="#python-language-dictionaries-defaultdict">defaultdict(int)</a> of the items passed to it as a parameter</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#python-language-counter-__codelineno-0-1"></a><span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#python-language-counter-__codelineno-0-2"></a>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#python-language-counter-__codelineno-0-3"></a><span class="n">counter_list</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">0</span><span class="p">])</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#python-language-counter-__codelineno-0-4"></a><span class="n">counter_list</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_text output_subarea output_execute_result">
+<pre>
+<code>Counter({0: 2, 1: 1, 2: 1, 3: 1})</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#python-language-counter-__codelineno-1-1"></a><span class="n">document</span> <span class="o">=</span> <span class="s2">&quot;Hello this is a test and this is another test.&quot;</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#python-language-counter-__codelineno-1-2"></a>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#python-language-counter-__codelineno-1-3"></a><span class="n">word_count</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="n">document</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39; &#39;</span><span class="p">))</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#python-language-counter-__codelineno-1-4"></a><span class="n">word_count</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_text output_subarea output_execute_result">
+<pre>
+<code>Counter({&#39;Hello&#39;: 1,
+         &#39;this&#39;: 2,
+         &#39;is&#39;: 2,
+         &#39;a&#39;: 1,
+         &#39;test&#39;: 1,
+         &#39;and&#39;: 1,
+         &#39;another&#39;: 1,
+         &#39;test.&#39;: 1})</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div></section><section class="print-page" id="python-language-sets"><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script>
+(function() {
+  function addWidgetsRenderer() {
+    var requireJsScript = document.createElement('script');
+    requireJsScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js';
+
+    var mimeElement = document.querySelector('script[type="application/vnd.jupyter.widget-view+json"]');
+    var jupyterWidgetsScript = document.createElement('script');
+    var widgetRendererSrc = 'https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js';
+    var widgetState;
+
+    // Fallback for older version:
+    try {
+      widgetState = mimeElement && JSON.parse(mimeElement.innerHTML);
+
+      if (widgetState && (widgetState.version_major < 2 || !widgetState.version_major)) {
+        widgetRendererSrc = 'jupyter-js-widgets@*/dist/embed.js';
+      }
+    } catch(e) {}
+
+    jupyterWidgetsScript.src = widgetRendererSrc;
+
+    document.body.appendChild(requireJsScript);
+    document.body.appendChild(jupyterWidgetsScript);
+  }
+
+  document.addEventListener('DOMContentLoaded', addWidgetsRenderer);
+}());
+</script>
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="python-language-sets-sets">Sets</h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>A set is a data structure that represents a collection of unique elements. Sets are useful when a simpler structure than <a href="#python-language-dictionaries">dictionaries</a> are required.</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="python-language-sets-definition">Definition</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#python-language-sets-__codelineno-0-1"></a><span class="n">example_set</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span> <span class="p">,</span><span class="mi">4</span><span class="p">}</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#python-language-sets-__codelineno-0-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">example_set</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+<code>{1, 2, 3, 4}
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#python-language-sets-__codelineno-1-1"></a><span class="n">example_set_two</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span> <span class="c1"># Sets cannot be defined as {} as they will appear empty.</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+<code>{1}
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="python-language-sets-usage">Usage</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#python-language-sets-__codelineno-2-1"></a><span class="n">example_set_two</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="c1"># Add element to a set</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#python-language-sets-__codelineno-2-2"></a><span class="n">result</span> <span class="o">=</span> <span class="mi">1</span> <span class="ow">in</span> <span class="n">example_set_two</span> <span class="c1"># Fast look-up</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#python-language-sets-__codelineno-2-3"></a><span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+<code>True
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#python-language-sets-__codelineno-3-1"></a><span class="n">example_set_three</span> <span class="o">=</span> <span class="nb">set</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">])</span> <span class="c1"># Can take a list as an argument and generate a list, note the duplicates</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#python-language-sets-__codelineno-3-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">example_set_three</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+<code>{1, 2, 3, 4}
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div></section><section class="print-page" id="python-language-controlflow"><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script>
+(function() {
+  function addWidgetsRenderer() {
+    var requireJsScript = document.createElement('script');
+    requireJsScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js';
+
+    var mimeElement = document.querySelector('script[type="application/vnd.jupyter.widget-view+json"]');
+    var jupyterWidgetsScript = document.createElement('script');
+    var widgetRendererSrc = 'https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js';
+    var widgetState;
+
+    // Fallback for older version:
+    try {
+      widgetState = mimeElement && JSON.parse(mimeElement.innerHTML);
+
+      if (widgetState && (widgetState.version_major < 2 || !widgetState.version_major)) {
+        widgetRendererSrc = 'jupyter-js-widgets@*/dist/embed.js';
+      }
+    } catch(e) {}
+
+    jupyterWidgetsScript.src = widgetRendererSrc;
+
+    document.body.appendChild(requireJsScript);
+    document.body.appendChild(jupyterWidgetsScript);
+  }
+
+  document.addEventListener('DOMContentLoaded', addWidgetsRenderer);
+}());
+</script>
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="python-language-controlflow-control-flow">Control Flow</h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Python includes multiple constructs and statements for controlling flow.</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="python-language-controlflow-if-condition">if condition</h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#python-language-controlflow-__codelineno-0-1"></a><span class="n">condition</span> <span class="o">=</span> <span class="kc">True</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#python-language-controlflow-__codelineno-0-2"></a><span class="k">if</span> <span class="n">condition</span> <span class="ow">is</span> <span class="kc">True</span><span class="p">:</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#python-language-controlflow-__codelineno-0-3"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;True&quot;</span><span class="p">)</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#python-language-controlflow-__codelineno-0-4"></a><span class="k">elif</span> <span class="n">condition</span> <span class="ow">is</span> <span class="kc">False</span><span class="p">:</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#python-language-controlflow-__codelineno-0-5"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;False&quot;</span><span class="p">)</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#python-language-controlflow-__codelineno-0-6"></a><span class="k">else</span><span class="p">:</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#python-language-controlflow-__codelineno-0-7"></a>    <span class="nb">print</span><span class="p">(</span><span class="n">condition</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+<code>True
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#python-language-controlflow-__codelineno-1-1"></a><span class="n">result</span> <span class="o">=</span> <span class="s2">&quot;True&quot;</span> <span class="k">if</span> <span class="n">condition</span> <span class="ow">is</span> <span class="kc">True</span> <span class="k">else</span> <span class="s2">&quot;False&quot;</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#python-language-controlflow-__codelineno-1-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+<code>True
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="python-language-controlflow-while-loop">while loop</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#python-language-controlflow-__codelineno-2-1"></a><span class="n">counter</span> <span class="o">=</span> <span class="mi">0</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#python-language-controlflow-__codelineno-2-2"></a>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#python-language-controlflow-__codelineno-2-3"></a><span class="k">while</span> <span class="n">counter</span> <span class="o">&lt;</span> <span class="mi">3</span><span class="p">:</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#python-language-controlflow-__codelineno-2-4"></a>    <span class="nb">print</span><span class="p">(</span><span class="n">counter</span><span class="p">)</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#python-language-controlflow-__codelineno-2-5"></a>    <span class="n">counter</span> <span class="o">+=</span> <span class="mi">1</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+<code>0
+1
+2
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="python-language-controlflow-for-loop">for loop</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#python-language-controlflow-__codelineno-3-1"></a><span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#python-language-controlflow-__codelineno-3-2"></a>    <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+<code>0
+1
+2
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#python-language-controlflow-__codelineno-4-1"></a><span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">):</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#python-language-controlflow-__codelineno-4-2"></a>    <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+<code>1
+2
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#python-language-controlflow-__codelineno-5-1"></a><span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#python-language-controlflow-__codelineno-5-2"></a>    <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#python-language-controlflow-__codelineno-5-3"></a>        <span class="k">continue</span>
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#python-language-controlflow-__codelineno-5-4"></a>    <span class="k">elif</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">3</span><span class="p">:</span>
+<a id="__codelineno-5-5" name="__codelineno-5-5" href="#python-language-controlflow-__codelineno-5-5"></a>        <span class="k">break</span>
+<a id="__codelineno-5-6" name="__codelineno-5-6" href="#python-language-controlflow-__codelineno-5-6"></a>    <span class="k">else</span><span class="p">:</span>
+<a id="__codelineno-5-7" name="__codelineno-5-7" href="#python-language-controlflow-__codelineno-5-7"></a>        <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+<code>0
+2
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div></section><section class="print-page" id="python-language-sorting"><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script>
+(function() {
+  function addWidgetsRenderer() {
+    var requireJsScript = document.createElement('script');
+    requireJsScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js';
+
+    var mimeElement = document.querySelector('script[type="application/vnd.jupyter.widget-view+json"]');
+    var jupyterWidgetsScript = document.createElement('script');
+    var widgetRendererSrc = 'https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js';
+    var widgetState;
+
+    // Fallback for older version:
+    try {
+      widgetState = mimeElement && JSON.parse(mimeElement.innerHTML);
+
+      if (widgetState && (widgetState.version_major < 2 || !widgetState.version_major)) {
+        widgetRendererSrc = 'jupyter-js-widgets@*/dist/embed.js';
+      }
+    } catch(e) {}
+
+    jupyterWidgetsScript.src = widgetRendererSrc;
+
+    document.body.appendChild(requireJsScript);
+    document.body.appendChild(jupyterWidgetsScript);
+  }
+
+  document.addEventListener('DOMContentLoaded', addWidgetsRenderer);
+}());
+</script>
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="python-language-sorting-sorting">Sorting</h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The <a href="#python-language-lists">lists</a> data structure has an associated sort method that orders items in descending order.</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#python-language-sorting-__codelineno-0-1"></a><span class="n">sample_lst</span> <span class="o">=</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="o">-</span><span class="mi">8</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">0</span><span class="p">]</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#python-language-sorting-__codelineno-0-2"></a><span class="n">sample_lst</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span> <span class="c1"># Sort In-place</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#python-language-sorting-__codelineno-0-3"></a><span class="nb">print</span><span class="p">(</span><span class="n">sample_lst</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+<code>[-8, 0, 3, 4, 5, 9]
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Alternatively, sorting can be done using the <strong>sorted</strong> method which retuns a copy of the list in sorted order</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#python-language-sorting-__codelineno-1-1"></a><span class="nb">sorted</span><span class="p">(</span><span class="n">sample_lst</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_text output_subarea output_execute_result">
+<pre>
+<code>[-8, 0, 3, 4, 5, 9]</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>To change the order of the items in descending order, the reverse parameter can be used.</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#python-language-sorting-__codelineno-2-1"></a><span class="nb">sorted</span><span class="p">(</span><span class="n">sample_lst</span><span class="p">,</span> <span class="n">reverse</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_text output_subarea output_execute_result">
+<pre>
+<code>[9, 5, 4, 3, 0, -8]</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>A function can also be applied to elements before they become sorted.</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#python-language-sorting-__codelineno-3-1"></a><span class="nb">sorted</span><span class="p">(</span><span class="n">sample_lst</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="nb">abs</span><span class="p">)</span> <span class="c1"># Assume each element is absolute before they are sorted.</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_text output_subarea output_execute_result">
+<pre>
+<code>[0, 3, 4, 5, -8, 9]</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div></section><section class="print-page" id="python-language-listcomprehensions"><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script>
+(function() {
+  function addWidgetsRenderer() {
+    var requireJsScript = document.createElement('script');
+    requireJsScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js';
+
+    var mimeElement = document.querySelector('script[type="application/vnd.jupyter.widget-view+json"]');
+    var jupyterWidgetsScript = document.createElement('script');
+    var widgetRendererSrc = 'https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js';
+    var widgetState;
+
+    // Fallback for older version:
+    try {
+      widgetState = mimeElement && JSON.parse(mimeElement.innerHTML);
+
+      if (widgetState && (widgetState.version_major < 2 || !widgetState.version_major)) {
+        widgetRendererSrc = 'jupyter-js-widgets@*/dist/embed.js';
+      }
+    } catch(e) {}
+
+    jupyterWidgetsScript.src = widgetRendererSrc;
+
+    document.body.appendChild(requireJsScript);
+    document.body.appendChild(jupyterWidgetsScript);
+  }
+
+  document.addEventListener('DOMContentLoaded', addWidgetsRenderer);
+}());
+</script>
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="python-language-listcomprehensions-list-comprehensions">List Comprehensions</h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>List comprehensions allows elements of a list to be transformed given a specified condition.</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#python-language-listcomprehensions-__codelineno-0-1"></a><span class="n">even_numbers</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span> <span class="k">if</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">]</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#python-language-listcomprehensions-__codelineno-0-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">even_numbers</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+<code>[0, 2, 4, 6, 8]
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>This operation can also be used to transform elements from a list to a dictionary structure.</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#python-language-listcomprehensions-__codelineno-1-1"></a><span class="n">transform_list</span> <span class="o">=</span> <span class="p">{</span><span class="n">x</span><span class="p">:</span><span class="n">x</span> <span class="o">*</span><span class="mi">2</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span> <span class="k">if</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">}</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#python-language-listcomprehensions-__codelineno-1-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">transform_list</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+<code>{2: 4, 4: 8, 6: 12, 8: 16}
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>List comprehensions can include multiple for loops as well.</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#python-language-listcomprehensions-__codelineno-2-1"></a><span class="n">multiple_loops</span> <span class="o">=</span> <span class="p">[</span> <span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span> <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">x</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="mi">5</span><span class="p">)]</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#python-language-listcomprehensions-__codelineno-2-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">multiple_loops</span><span class="p">)</span>
+</code></pre></div>
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+<code>[(1, 2), (1, 3), (1, 4), (2, 3), (2, 4), (3, 4)]
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div></section><h1 class='nav-section-title-end'>Ended: Language</h1>
+                        <h2 class='nav-section-title' id='section-visualization'>
+                            Visualization <a class='headerlink' href='#section-visualization' title='Permanent link'>↵</a>
+                        </h2>
+                        <section class="print-page" id="python-visualization-matplotlib"><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script>
+(function() {
+  function addWidgetsRenderer() {
+    var requireJsScript = document.createElement('script');
+    requireJsScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js';
+
+    var mimeElement = document.querySelector('script[type="application/vnd.jupyter.widget-view+json"]');
+    var jupyterWidgetsScript = document.createElement('script');
+    var widgetRendererSrc = 'https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js';
+    var widgetState;
+
+    // Fallback for older version:
+    try {
+      widgetState = mimeElement && JSON.parse(mimeElement.innerHTML);
+
+      if (widgetState && (widgetState.version_major < 2 || !widgetState.version_major)) {
+        widgetRendererSrc = 'jupyter-js-widgets@*/dist/embed.js';
+      }
+    } catch(e) {}
+
+    jupyterWidgetsScript.src = widgetRendererSrc;
+
+    document.body.appendChild(requireJsScript);
+    document.body.appendChild(jupyterWidgetsScript);
+  }
+
+  document.addEventListener('DOMContentLoaded', addWidgetsRenderer);
+}());
+</script>
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="python-visualization-matplotlib-matplotlib">Matplotlib</h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html"></div>
+</div>
+</div></section><h1 class='nav-section-title-end'>Ended: Visualization</h1><h1 class='nav-section-title-end'>Ended: Python</h1></div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024 - Amgad Madkour
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "/notes/notes.md/", "features": ["navigation.tabs", "navigation.sections"], "search": "assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      
+        <script src="js/print-site.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
