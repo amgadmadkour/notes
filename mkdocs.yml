@@ -23,6 +23,7 @@ nav:
           - Lists: python/language/lists.ipynb
           - Modules: python/language/modules.ipynb
           - Strings: python/language/strings.ipynb
+          - Regular Expressions: python/language/regexp.ipynb
           - Exceptions: python/language/exceptions.ipynb
           - Tuples: python/language/tuples.ipynb
           - Dictionaries: python/language/dictionaries.ipynb
