@@ -1,3 +1,3 @@
 # Regression
 
-* The system predicts a value given a set of features.
+In regression, the output variable is a continuous value, such as predicting the price of a house based on its size, or predicting the temperature based on time of day.

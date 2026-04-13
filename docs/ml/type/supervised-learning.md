@@ -7,7 +7,7 @@
 !!! info
     The term *feature* is used interchangeably with the term *attribute*. An attribute usually denotes a property name only while a feature denotes a property name and value.
 
-The output variable can either be a [regression](../concept/regression.md) or a [classification](../concept/classification) value.
+The output variable can either be a [regression](../task/regression.md) or a [classification](../task/classification.md) value.
 
 ## Examples
 
