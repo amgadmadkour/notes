@@ -11,10 +11,14 @@
             "id": "d626462cc8c8c54e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "ml/algorithm/supervised/k-nearest-neighbors.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "k-nearest-neighbors"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "t-Distributed",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -91,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ml/algorithm/supervised/k-nearest-neighbors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for k-nearest-neighbors"
             }
           },
           {
@@ -109,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ml/algorithm/supervised/k-nearest-neighbors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from k-nearest-neighbors"
             }
           },
           {
@@ -151,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "ml/algorithm/supervised/k-nearest-neighbors.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of k-nearest-neighbors"
             }
           },
           {
@@ -169,12 +175,12 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 441.5
+    "width": 441.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,8 +194,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "696f030817cf716b",
+  "active": "d626462cc8c8c54e",
   "lastOpenFiles": [
+    "ml/algorithm/supervised/support-vector-machine.md",
+    "ml/algorithm/supervised/random-forest.md",
+    "ml/algorithm/supervised/neural-network.md",
+    "ml/algorithm/supervised/linear-regression.md",
     "ml/ml.md",
     "ml/concept/model.md",
     "ml/concept/training.md",
@@ -212,10 +222,6 @@
     "ml/algorithm/unsupervised/clustering/clustering.md",
     "ml/algorithm/unsupervised/dimentionality-reduction/dimensionality-reduction.md",
     "ml/algorithm/unsupervised/dimentionality-reduction/locally-linear-embedding.md",
-    "ml/type/model-based-learning.md",
-    "ml/algorithm/unsupervised/dimentionality-reduction/principal-component-analysis.md",
-    "ml/algorithm/supervised/logistic-regression.md",
-    "ml/algorithm/unsupervised/dimentionality-reduction/t-distributed-stochastic-neighbor-embedding.md",
     "ml/algorithm/unsupervised/association-rules",
     "ml/algorithm/unsupervised/dimentionality-reduction",
     "ml/algorithm/unsupervised/anomaly-detection",
